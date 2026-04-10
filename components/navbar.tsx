@@ -1,0 +1,86 @@
+'use client'
+
+import { useState } from 'react'
+import { useTranslations } from 'next-intl'
+import Link from 'next/link'
+import MobileMenu from './mobile-menu'
+
+interface NavbarProps {
+  locale: string
+}
+
+export default function Navbar({ locale }: NavbarProps) {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const t = useTranslations('nav')
+
+  const navLinks = [
+    { label: t('home'), href: `/${locale}` },
+    { label: t('about'), href: `/${locale}/about` },
+    { label: t('board'), href: `/${locale}/board` },
+    { label: t('projects'), href: `/${locale}/projects` },
+    { label: t('research'), href: `/${locale}/research` },
+    { label: t('act'), href: `/${locale}/notnormal` },
+  ]
+
+  return (
+    <>
+      <nav className="bg-primary text-primary-foreground shadow-lg sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            {/* Logo */}
+            <Link
+              href={`/${locale}`}
+              className="text-2xl font-bold hover:opacity-80 transition-opacity"
+            >
+              NGO
+            </Link>
+
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex gap-8">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm font-medium hover:opacity-80 transition-opacity relative group"
+                >
+                  {link.label}
+                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full"></span>
+                </Link>
+              ))}
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button
+              className="md:hidden p-2 hover:opacity-80 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-primary-foreground"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Toggle menu"
+              aria-expanded={isMobileMenuOpen}
+            >
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <MobileMenu
+          links={navLinks}
+          onClose={() => setIsMobileMenuOpen(false)}
+        />
+      )}
+    </>
+  )
+}

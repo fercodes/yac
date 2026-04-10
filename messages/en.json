@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "board": "Board",
+    "projects": "Projects",
+    "research": "Research",
+    "act": "Act",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Transforming Communities Through Action",
+    "subtitle": "We believe in the power of collective action to create meaningful change.",
+    "ctaText": "Get Involved",
+    "ctaUrl": "/en/notnormal"
+  },
+  "about": {
+    "eyebrow": "ABOUT US",
+    "title": "Our Mission",
+    "description": "We are dedicated to creating sustainable solutions that empower communities and drive positive social impact.",
+    "bullets": [
+      "Community-driven initiatives",
+      "Evidence-based programs",
+      "Sustainable impact",
+      "Inclusive leadership"
+    ],
+    "linkText": "Learn More",
+    "linkUrl": "/en/about"
+  },
+  "projects": {
+    "eyebrow": "WHAT WE DO",
+    "title": "Featured Projects",
+    "description": "Our work spans multiple sectors, focusing on education, health, and economic empowerment.",
+    "linkText": "View All Projects",
+    "linkUrl": "/en/projects",
+    "items": [
+      {
+        "title": "Education Access",
+        "description": "Providing educational resources to underserved communities"
+      },
+      {
+        "title": "Health Initiatives",
+        "description": "Building healthcare capacity in rural areas"
+      },
+      {
+        "title": "Economic Empowerment",
+        "description": "Supporting entrepreneurs and small business growth"
+      }
+    ]
+  },
+  "research": {
+    "eyebrow": "RESEARCH",
+    "title": "Evidence & Insights",
+    "description": "Our research drives innovation and informs policy recommendations.",
+    "linkText": "Explore Research",
+    "linkUrl": "/en/research"
+  },
+  "act": {
+    "title": "Get Involved",
+    "subtitle": "Join us in making a difference",
+    "actions": [
+      {
+        "title": "Donate",
+        "description": "Support our mission with a contribution"
+      },
+      {
+        "title": "Volunteer",
+        "description": "Give your time and skills"
+      },
+      {
+        "title": "Partner With Us",
+        "description": "Collaborate on impact initiatives"
+      }
+    ]
+  },
+  "board": {
+    "title": "Our Board",
+    "description": "Meet the visionary leaders guiding our organization",
+    "members": [
+      {
+        "name": "Jane Doe",
+        "role": "Executive Director",
+        "bio": "Jane brings 20+ years of nonprofit leadership experience."
+      },
+      {
+        "name": "John Smith",
+        "role": "Board Chair",
+        "bio": "John is a seasoned social entrepreneur and advisor."
+      },
+      {
+        "name": "Sarah Johnson",
+        "role": "Director of Programs",
+        "bio": "Sarah leads our project initiatives across multiple regions."
+      }
+    ]
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contact": "Contact Us",
+    "email": "hello@ngo.org",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Impact Street, City, State 12345",
+    "followUs": "Follow Us",
+    "copyright": "© 2024 Our NGO. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
