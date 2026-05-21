@@ -1,17 +1,18 @@
-'use client'
+'use client';
 
-import { useState } from 'react'
-import { useTranslations } from 'next-intl'
-import Link from 'next/link'
-import MobileMenu from './mobile-menu'
+import { useState } from 'react';
+import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+import MobileMenu from './mobile-menu';
+import Image from 'next/image';
 
 interface NavbarProps {
-  locale: string
+  locale: string;
 }
 
 export default function Navbar({ locale }: NavbarProps) {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-  const t = useTranslations('nav')
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const t = useTranslations('nav');
 
   const navLinks = [
     { label: t('home'), href: `/${locale}` },
@@ -20,7 +21,7 @@ export default function Navbar({ locale }: NavbarProps) {
     { label: t('projects'), href: `/${locale}/projects` },
     { label: t('research'), href: `/${locale}/research` },
     { label: t('act'), href: `/${locale}/notnormal` },
-  ]
+  ];
 
   return (
     <>
@@ -30,9 +31,16 @@ export default function Navbar({ locale }: NavbarProps) {
             {/* Logo */}
             <Link
               href={`/${locale}`}
-              className="text-2xl font-bold hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity"
             >
-              NGO
+              <Image
+                src="/images/logo2.png"
+                alt="Logo"
+                width={120}
+                height={40}
+                className="h-14 w-auto object-contain"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation */}
@@ -82,5 +90,5 @@ export default function Navbar({ locale }: NavbarProps) {
         />
       )}
     </>
-  )
+  );
 }

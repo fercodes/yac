@@ -5,46 +5,50 @@
     "board": "Board",
     "projects": "Projects",
     "research": "Research",
-    "act": "Act",
+    "act": "#NotNormal",
     "contact": "Contact"
   },
   "hero": {
-    "headline": "Transforming Communities Through Action",
+    "headline": "Public corruption is the crisis behind every crisis. We're the generation ending that.",
     "subtitle": "We believe in the power of collective action to create meaningful change.",
-    "ctaText": "Get Involved",
+    "ctaText": "Join the movement",
     "ctaUrl": "/en/notnormal"
   },
   "about": {
-    "eyebrow": "ABOUT US",
-    "title": "Our Mission",
-    "description": "We are dedicated to creating sustainable solutions that empower communities and drive positive social impact.",
+    "eyebrow": "Who we are",
+    "title": "While the world addresses symptons, we target the root cause",
+    "description": "YAC Foundation is the first youth-led international organization to treat public corruption as what the evidence shows it to be: the structural barrier behind slow development, weakened institutions, and unrealized potential. We bring together young leaders from every background, ideology, and country, united not by politics, but by one shared conviction: public corruption is not inevitable, and this generation will prove it.",
     "bullets": [
-      "Community-driven initiatives",
-      "Evidence-based programs",
-      "Sustainable impact",
-      "Inclusive leadership"
+      "We measure it.",
+      "We document it.",
+      "We empower youth.",
+      "We connect evidence to the institutions that have the power to act."
     ],
-    "linkText": "Learn More",
+    "linkText": "About us",
     "linkUrl": "/en/about"
   },
   "projects": {
-    "eyebrow": "WHAT WE DO",
-    "title": "Featured Projects",
-    "description": "Our work spans multiple sectors, focusing on education, health, and economic empowerment.",
-    "linkText": "View All Projects",
+    "eyebrow": "What we do",
+    "title": "Projects",
+    "description": "Our work spans multiple sectors:",
+    "linkText": "View all projects",
     "linkUrl": "/en/projects",
     "items": [
       {
-        "title": "Education Access",
-        "description": "Providing educational resources to underserved communities"
+        "title": "Youth Fellows for the SDGs",
+        "description": "200+ young researchers across 12 countries documenting how public corruption undermines SDG progress — producing the evidence that institutions need to act."
       },
       {
-        "title": "Health Initiatives",
-        "description": "Building healthcare capacity in rural areas"
+        "title": "Youth Corruption Perception Index",
+        "description": "The first youth-led public corruption perception index in Latin America — turning the lived experience of young people across 15 countries into policy-grade evidence."
       },
       {
-        "title": "Economic Empowerment",
-        "description": "Supporting entrepreneurs and small business growth"
+        "title": "The Integrity Pledge",
+        "description": "Young leaders across Latin America publicly committing to integrity before taking office — creating accountability where it matters most."
+      },
+      {
+        "title": "Youth Integrity Academy",
+        "description": "Building the next generation of leaders equipped to demand and practice integrity in public life — beyond ethics, toward action."
       }
     ]
   },

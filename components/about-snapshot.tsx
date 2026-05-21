@@ -33,7 +33,7 @@ export default function AboutSnapshot({ locale }: AboutSnapshotProps) {
               key={index}
               className="flex items-start gap-3 text-gray-700"
             >
-              <span className="text-primary font-bold text-lg mt-1 flex-shrink-0">✓</span>
+              <span className="text-primary font-bold text-lg flex-shrink-0">✓</span>
               <span className="text-base">{bullet}</span>
             </li>
           ))}
