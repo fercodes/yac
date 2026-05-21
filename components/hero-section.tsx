@@ -15,7 +15,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
     <>
       <section className="relative bg-white min-h-150 md:min-h-175 flex items-center">
         <NextImage
-          src="/images/photo14.jpg"
+          src="/images/photo18.jpg"
           alt=""
           fill
           className="object-cover object-center"
