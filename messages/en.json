@@ -16,7 +16,7 @@
   },
   "about": {
     "eyebrow": "Who we are",
-    "title": "While the world addresses symptons, we target the root cause",
+    "title": "While the world addresses symptoms, we target the root cause",
     "description": "YAC Foundation is the first youth-led international organization to treat public corruption as what the evidence shows it to be: the structural barrier behind slow development, weakened institutions, and unrealized potential. We bring together young leaders from every background, ideology, and country, united not by politics, but by one shared conviction: public corruption is not inevitable, and this generation will prove it.",
     "bullets": [
       "We measure it.",
@@ -99,13 +99,13 @@
     ]
   },
   "footer": {
-    "quickLinks": "Quick Links",
-    "contact": "Contact Us",
-    "email": "hello@ngo.org",
-    "phone": "+1 (555) 123-4567",
-    "address": "123 Impact Street, City, State 12345",
-    "followUs": "Follow Us",
-    "copyright": "© 2024 Our NGO. All rights reserved.",
+    "quickLinks": "Quick links",
+    "contact": "Contact us",
+    "email": "yaclatam@gmail.com",
+    "phone": "",
+    "address": "",
+    "followUs": "Follow us",
+    "copyright": "© 2026 Youth Against Corruption. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service"
   }

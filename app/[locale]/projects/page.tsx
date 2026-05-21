@@ -56,10 +56,9 @@ export default async function ProjectsPage({ params }: PageProps) {
       {/* Hero Section */}
       <section className="bg-primary text-primary-foreground py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Projects</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Projects</h1>
           <p className="text-xl text-gray-300 max-w-2xl">
-            Transforming lives through targeted interventions across education,
-            health, and economic sectors.
+            We don't just talk about public corruption.We build the tools to address it — and the leaders committed to ending it.
           </p>
         </div>
       </section>
