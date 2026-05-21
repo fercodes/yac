@@ -29,7 +29,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
               <h1 className="text-5xl md:text-6xl font-bold text-primary mb-6 leading-tight text-balance">
                 {t('headline')}
               </h1>
-              <p className="text-lg text-gray-600 mb-10 leading-relaxed text-pretty">
+              <p className="text-lg text-gray-800 font-semibold mb-10 leading-relaxed text-pretty">
                 {t('subtitle')}
               </p>
               <div className="flex justify-center md:justify-start">
@@ -55,7 +55,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
       </section>
 
       {/* Stats */}
-      <div className="relative w-full bg-primary text-primary-foreground py-12">
+      <div className="relative w-full bg-primary text-primary-foreground py-12 my-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-3 gap-8 text-center">
             <div>
@@ -64,7 +64,9 @@ export default function HeroSection({ locale }: HeroSectionProps) {
             </div>
             <div>
               <p className="text-4xl font-bold">12+</p>
-              <p className="text-sm mt-1 opacity-80">Affiliated organizations</p>
+              <p className="text-sm mt-1 opacity-80">
+                Affiliated organizations
+              </p>
             </div>
             <div>
               <p className="text-4xl font-bold">12</p>
