@@ -1,19 +1,19 @@
-'use client'
+'use client';
 
-import { useTranslations } from 'next-intl'
-import Button from './button'
-import Card from './card'
-import ImagePlaceholder from './image-placeholder'
+import { useTranslations } from 'next-intl';
+import Button from './button';
+import Card from './card';
+import ImagePlaceholder from './image-placeholder';
 
 interface ProjectsPreviewProps {
-  locale: string
+  locale: string;
 }
 
 export default function ProjectsPreview({ locale }: ProjectsPreviewProps) {
-  const t = useTranslations('projects')
+  const t = useTranslations('projects');
 
   return (
-    <section className="bg-white py-24 md:py-40">
+    <section className="bg-white py-24 md:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-16">
           <span className="text-xs font-bold text-primary tracking-widest uppercase">
@@ -44,5 +44,5 @@ export default function ProjectsPreview({ locale }: ProjectsPreviewProps) {
         </Button>
       </div>
     </section>
-  )
+  );
 }

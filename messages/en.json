@@ -52,6 +52,44 @@
       }
     ]
   },
+  "board": {
+    "eyebrow": "",
+    "heading": "Meet our board",
+    "linkText": "View all members",
+    "linkUrl": "/en/board",
+    "members": [
+      {
+        "name": "",
+        "role": "",
+        "country": "",
+        "oneLiner": ""
+      },
+      {
+        "name": "",
+        "role": "",
+        "country": "",
+        "oneLiner": ""
+      },
+      {
+        "name": "",
+        "role": "",
+        "country": "",
+        "oneLiner": ""
+      },
+      {
+        "name": "",
+        "role": "",
+        "country": "",
+        "oneLiner": ""
+      },
+      {
+        "name": "",
+        "role": "",
+        "country": "",
+        "oneLiner": ""
+      }
+    ]
+  },
   "research": {
     "eyebrow": "RESEARCH",
     "title": "Evidence & Insights",
@@ -74,27 +112,6 @@
       {
         "title": "Partner With Us",
         "description": "Collaborate on impact initiatives"
-      }
-    ]
-  },
-  "board": {
-    "title": "Our Board",
-    "description": "Meet the visionary leaders guiding our organization",
-    "members": [
-      {
-        "name": "Jane Doe",
-        "role": "Executive Director",
-        "bio": "Jane brings 20+ years of nonprofit leadership experience."
-      },
-      {
-        "name": "John Smith",
-        "role": "Board Chair",
-        "bio": "John is a seasoned social entrepreneur and advisor."
-      },
-      {
-        "name": "Sarah Johnson",
-        "role": "Director of Programs",
-        "bio": "Sarah leads our project initiatives across multiple regions."
       }
     ]
   },

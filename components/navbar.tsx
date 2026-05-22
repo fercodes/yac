@@ -38,7 +38,7 @@ export default function Navbar({ locale }: NavbarProps) {
                 alt="Logo"
                 width={120}
                 height={40}
-                className="h-14 w-auto object-contain"
+                className="h-14 w-auto object-contain rounded-md"
                 priority
               />
             </Link>
