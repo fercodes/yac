@@ -69,7 +69,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
               </p>
             </div>
             <div>
-              <p className="text-4xl font-bold">12</p>
+              <p className="text-4xl font-bold">15</p>
               <p className="text-sm mt-1 opacity-80">Countries and growing</p>
             </div>
           </div>

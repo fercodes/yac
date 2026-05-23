@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import Button from './button';
 import Card from './card';
-import ImagePlaceholder from './image-placeholder';
+import Image from 'next/image';
 
 interface ProjectsPreviewProps {
   locale: string;
@@ -30,7 +30,14 @@ export default function ProjectsPreview({ locale }: ProjectsPreviewProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {t.raw('items').map((project: any, index: number) => (
             <Card key={index}>
-              <ImagePlaceholder aspectRatio="4:3" alt={project.title} />
+              <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md">
+                <Image
+                  src={`/images/${project.image}`}
+                  alt={project.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <h3 className="text-xl font-bold text-primary mt-4">
                 {project.title}
               </h3>

@@ -27,31 +27,6 @@
     "linkText": "About us",
     "linkUrl": "/en/about"
   },
-  "projects": {
-    "eyebrow": "What we do",
-    "title": "Projects",
-    "description": "Our work spans multiple sectors:",
-    "linkText": "View all projects",
-    "linkUrl": "/en/projects",
-    "items": [
-      {
-        "title": "Youth Fellows for the SDGs",
-        "description": "200+ young researchers across 12 countries documenting how public corruption undermines SDG progress — producing the evidence that institutions need to act."
-      },
-      {
-        "title": "Youth Corruption Perception Index",
-        "description": "The first youth-led public corruption perception index in Latin America — turning the lived experience of young people across 15 countries into policy-grade evidence."
-      },
-      {
-        "title": "The Integrity Pledge",
-        "description": "Young leaders across Latin America publicly committing to integrity before taking office — creating accountability where it matters most."
-      },
-      {
-        "title": "Youth Integrity Academy",
-        "description": "Building the next generation of leaders equipped to demand and practice integrity in public life — beyond ethics, toward action."
-      }
-    ]
-  },
   "board": {
     "eyebrow": "",
     "heading": "Meet our board",
@@ -88,6 +63,47 @@
         "country": "",
         "oneLiner": ""
       }
+    ]
+  },
+  "projects": {
+    "eyebrow": "What we do",
+    "title": "Projects",
+    "description": "Our work spans multiple sectors:",
+    "linkText": "View all projects",
+    "linkUrl": "/en/projects",
+    "cardLinkText": "Learn more",
+    "cardLinkUrl": "/en/projects",
+    "items": [
+      {
+        "title": "Youth Fellows for the SDGs",
+        "description": "200+ young researchers across 15 countries documenting how public corruption undermines SDG progress — producing the evidence that institutions need to act.",
+        "image": "photo16.jpg"
+      },
+      {
+        "title": "Youth Corruption Perception Index",
+        "description": "The first youth-led public corruption perception index in Latin America — turning the lived experience of young people across 15 countries into policy-grade evidence.",
+        "image": "photo4.jpg"
+      },
+      {
+        "title": "The Integrity Pledge",
+        "description": "Young leaders across Latin America publicly committing to integrity before taking office — creating accountability where it matters most.",
+        "image": "photo5.jpg"
+      },
+      {
+        "title": "Youth Integrity Academy",
+        "description": "Building the next generation of leaders equipped to demand and practice integrity in public life — beyond ethics, toward action.",
+        "image": "photo14.jpg"
+      }
+    ]
+  },
+  "framework": {
+    "eyebrow": "Our framework for action",
+    "heading": "The structural barrier behind every challenge",
+    "paragraphs": [
+      "The evidence is consistent: countries with higher levels of public corruption consistently show slower development, weaker institutions, and fewer opportunities for their citizens, particularly for young people.",
+      "Governments, international organizations, and civil society are making significant investments to address the defining challenges of our time: climate change, inequality, lack of opportunity, and access to quality education and healthcare.",
+      "But across Latin America and beyond, public corruption runs underneath every one of these challenges, diverting the resources allocated to solve them, weakening the institutions responsible for delivering them, and widening the gap between policy commitments and lived reality.",
+      "Our generation recognizes this pattern. And we are committed to addressing it with the evidence, the seriousness, and the urgency it deserves."
     ]
   },
   "research": {
