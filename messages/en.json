@@ -146,14 +146,23 @@
     ]
   },
   "footer": {
-    "quickLinks": "Quick links",
-    "contact": "Contact us",
+    "contact": "Contact",
     "email": "yaclatam@gmail.com",
-    "phone": "",
-    "address": "",
+    "linkedinUrl": "https://linkedin.com/company/the-yac-foundation/about/",
+    "instagramUrl": "https://instagram.com/theyacfoundation/",
+    "quickLinks": "Quick links",
+    "links": {
+      "home": "Home",
+      "about": "About",
+      "board": "Board",
+      "projects": "Projects",
+      "research": "Research",
+      "notnormal": "#NotNormal"
+    },
     "followUs": "Follow us",
-    "copyright": "© 2026 Youth Against Corruption. All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "legal": "Legal",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "copyright": "© 2026 Youth Against Corruption. All rights reserved."
   }
 }
