@@ -4,7 +4,6 @@
     "about": "About",
     "board": "Board",
     "projects": "Projects",
-    "research": "Research",
     "act": "#NotNormal",
     "contact": "Contact"
   },
@@ -156,7 +155,6 @@
       "about": "About",
       "board": "Board",
       "projects": "Projects",
-      "research": "Research",
       "notnormal": "#NotNormal"
     },
     "followUs": "Follow us",

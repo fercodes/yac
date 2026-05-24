@@ -19,7 +19,6 @@ export default function Navbar({ locale }: NavbarProps) {
     { label: t('about'), href: `/${locale}/about` },
     { label: t('board'), href: `/${locale}/board` },
     { label: t('projects'), href: `/${locale}/projects` },
-    { label: t('research'), href: `/${locale}/research` },
     { label: t('act'), href: `/${locale}/notnormal` },
   ];
 

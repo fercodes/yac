@@ -44,9 +44,6 @@ export default function Footer({ locale }: FooterProps) {
               <Link href={'/' + locale + '/projects'} className="block hover:opacity-80 transition-opacity">
                 {t('links.projects')}
               </Link>
-              <Link href={'/' + locale + '/research'} className="block hover:opacity-80 transition-opacity">
-                {t('links.research')}
-              </Link>
               <Link href={'/' + locale + '/notnormal'} className="block hover:opacity-80 transition-opacity">
                 {t('links.notnormal')}
               </Link>
