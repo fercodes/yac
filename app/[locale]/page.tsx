@@ -4,8 +4,7 @@ import AboutSnapshot from '@/components/about-snapshot';
 import BoardPreview from '@/components/board-preview';
 import ProjectsPreview from '@/components/projects-preview';
 import FrameworkSection from '@/components/framework-section';
-import ResearchPreview from '@/components/research-preview';
-import ActSection from '@/components/act-section';
+import SdgsSection from '@/components/sdg-section';
 import Footer from '@/components/footer';
 
 interface PageProps {
@@ -23,8 +22,7 @@ export default async function HomePage({ params }: PageProps) {
       <BoardPreview locale={locale} />
       <ProjectsPreview locale={locale} />
       <FrameworkSection locale={locale} />
-      <ResearchPreview locale={locale} />
-      <ActSection locale={locale} />
+      <SdgsSection locale={locale} />
       <Footer locale={locale} />
     </main>
   );

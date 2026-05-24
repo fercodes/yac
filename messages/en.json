@@ -106,28 +106,42 @@
       "Our generation recognizes this pattern. And we are committed to addressing it with the evidence, the seriousness, and the urgency it deserves."
     ]
   },
-  "research": {
-    "eyebrow": "RESEARCH",
-    "title": "Evidence & Insights",
-    "description": "Our research drives innovation and informs policy recommendations.",
-    "linkText": "Explore Research",
-    "linkUrl": "/en/research"
-  },
-  "act": {
-    "title": "Get Involved",
-    "subtitle": "Join us in making a difference",
-    "actions": [
+  "sdgs": {
+    "eyebrow": "Our impact",
+    "heading": "Accelerating the achievement of the Sustainable Development Goals (SDGs)",
+    "ctaLinkText": "Join the movement",
+    "ctaLinkUrl": "/en/join",
+    "cta": "Public corruption is not inevitable. Join the generation committed to proving it.",
+    "items": [
       {
-        "title": "Donate",
-        "description": "Support our mission with a contribution"
+        "emoji": "🌍",
+        "title": "Climate Action",
+        "description": "Public corruption diverts climate finance, weakens environmental enforcement, and undermines the implementation of solutions that already exist. Integrity is a precondition for effective climate action."
       },
       {
-        "title": "Volunteer",
-        "description": "Give your time and skills"
+        "emoji": "📚",
+        "title": "Quality Education",
+        "description": "Education systems deliver stronger outcomes where public institutions operate with transparency and accountability. Public corruption in education directly affects the quality and accessibility of opportunity for young people."
       },
       {
-        "title": "Partner With Us",
-        "description": "Collaborate on impact initiatives"
+        "emoji": "❤️",
+        "title": "Good Health",
+        "description": "Healthcare outcomes are closely linked to the integrity of public systems. Public corruption in health procurement and administration affects the availability of medicines and services — disproportionately impacting those who need them most."
+      },
+      {
+        "emoji": "💼",
+        "title": "Decent Work",
+        "description": "Fair economic opportunity requires fair institutions. Public corruption distorts competition and closes doors based on connection rather than merit — disproportionately affecting young people entering the workforce."
+      },
+      {
+        "emoji": "⚖️",
+        "title": "Strong Institutions",
+        "description": "SDG 16 recognizes that accountable, transparent institutions are not just a goal, they are the foundation on which every other goal is built. Addressing public corruption is central to SDG 16 and to the entire 2030 Agenda."
+      },
+      {
+        "emoji": "🤝",
+        "title": "Partnerships for the Goals",
+        "description": "International cooperation reaches its full potential only when channeled through accountable institutions. Strengthening public integrity is essential to ensuring that global commitments translate into real outcomes."
       }
     ]
   },
