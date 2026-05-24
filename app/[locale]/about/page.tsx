@@ -1,7 +1,7 @@
-import Navbar from '@/components/navbar'
-import Footer from '@/components/footer'
-import ImagePlaceholder from '@/components/image-placeholder'
-import { useTranslations } from 'next-intl'
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
+import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 interface PageProps {
   params: Promise<{ locale: string }>
@@ -59,8 +59,14 @@ export default async function AboutPage({ params }: PageProps) {
                 Today we operate across 12 countries with 200+ fellows producing research and contributing to accountability processes in their communities. We are present at the United Nations ECOSOC Youth Forum and working toward ECOSOC consultative status.
               </p>
             </div>
-            <div>
-              <ImagePlaceholder aspectRatio="4:3" alt="Mission image" />
+            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md">
+              <Image
+                src="/images/photo16.jpg"
+                alt="About us"
+                width="500"
+                height="600"
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
