@@ -1,7 +1,8 @@
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
-import Card from '@/components/card'
-import ImagePlaceholder from '@/components/image-placeholder'
+import Image from 'next/image'
+import { getTranslations } from 'next-intl/server'
+import Button from '@/components/button'
 
 interface PageProps {
   params: Promise<{ locale: string }>
@@ -9,75 +10,75 @@ interface PageProps {
 
 export default async function ProjectsPage({ params }: PageProps) {
   const { locale } = await params
+  const t = await getTranslations('projectsPage')
 
-  const projects = [
-    {
-      title: 'Education Access Initiative',
-      category: 'Education',
-      description:
-        'Providing educational resources and scholarships to underprivileged students across rural communities.',
-    },
-    {
-      title: 'Healthcare Capacity Building',
-      category: 'Health',
-      description:
-        'Building sustainable healthcare infrastructure and training medical professionals in underserved regions.',
-    },
-    {
-      title: 'Women Entrepreneurship Program',
-      category: 'Economic Empowerment',
-      description:
-        'Supporting women entrepreneurs with funding, mentorship, and market access.',
-    },
-    {
-      title: 'Climate & Sustainability',
-      category: 'Environment',
-      description:
-        'Implementing renewable energy and sustainable agriculture projects in climate-vulnerable areas.',
-    },
-    {
-      title: 'Digital Skills Training',
-      category: 'Technology',
-      description:
-        'Training youth in digital literacy and coding to open new economic opportunities.',
-    },
-    {
-      title: 'Clean Water & Sanitation',
-      category: 'Health',
-      description:
-        'Constructing water and sanitation facilities for communities lacking access to clean water.',
-    },
-  ]
+  const projects = t.raw('items') as Array<{
+    title: string
+    subtitle: string
+    body: string[]
+    buttonText: string
+    buttonUrl: string
+    image: string
+  }>
 
   return (
     <main>
       <Navbar locale={locale} />
 
-      {/* Hero Section */}
       <section className="bg-primary text-primary-foreground py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Projects</h1>
+          <span className="text-xs font-bold tracking-widest uppercase opacity-60 mb-4 block">
+            {t('eyebrow')}
+          </span>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            {t('heading')}
+          </h1>
           <p className="text-xl text-gray-300 max-w-2xl">
-            We don't just talk about public corruption.We build the tools to address it — and the leaders committed to ending it.
+            {t('subheading')}
           </p>
         </div>
       </section>
 
-      {/* Projects Grid */}
       <section className="bg-white py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="space-y-32">
             {projects.map((project, index) => (
-              <Card key={index}>
-                <ImagePlaceholder aspectRatio="4:3" alt={project.title} />
-                <span className="text-xs font-bold text-secondary uppercase tracking-widest mt-4">
-                  {project.category}
-                </span>
-                <h3 className="text-xl font-bold text-primary mt-2">
-                  {project.title}
-                </h3>
-                <p className="text-gray-600 mt-3">{project.description}</p>
-              </Card>
+              <div
+                key={index}
+                className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start"
+              >
+                <div className={index % 2 === 1 ? 'md:order-2' : ''}>
+                  <div className="relative w-full aspect-[4/3] overflow-hidden rounded-xl">
+                    <Image
+                      src={'/images/' + project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+
+                <div className={index % 2 === 1 ? 'md:order-1' : ''}>
+                  <h2 className="text-2xl md:text-3xl font-bold text-primary mb-3">
+                    {project.title}
+                  </h2>
+                  <p className="text-secondary font-semibold mb-6">
+                    {project.subtitle}
+                  </p>
+                  <div className="space-y-4">
+                    {project.body.map((paragraph, i) => (
+                      <p key={i} className="text-gray-600 leading-relaxed">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+                  <div className="mt-8">
+                    <Button href={project.buttonUrl} variant="primary">
+                      {project.buttonText}
+                    </Button>
+                  </div>
+                </div>
+              </div>
             ))}
           </div>
         </div>

@@ -2,6 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import Button from './button';
+import Image from 'next/image';
+
 
 interface SdgsSectionProps {
   locale: string;
@@ -31,9 +33,13 @@ export default function SdgsSection({ locale }: SdgsSectionProps) {
               key={index}
               className="border border-gray-100 rounded-xl p-6 hover:shadow-md transition-shadow"
             >
-              <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
-                {/* Replace with your icon */}
-                <span className="text-2xl">{item.emoji}</span>
+              <div className="relative w-16 h-16 mb-4">
+                <Image
+                  src={'/images/' + item.icon}
+                  alt={item.title}
+                  fill
+                  className="object-contain"
+                />
               </div>
               <h3 className="text-lg font-bold text-primary mb-2">
                 {item.title}
