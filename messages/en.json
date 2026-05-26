@@ -4,8 +4,7 @@
     "about": "About",
     "board": "Board",
     "projects": "Projects",
-    "act": "#NotNormal",
-    "contact": "Contact"
+    "act": "#NotNormal"
   },
   "hero": {
     "headline": "Public corruption is the crisis behind every crisis. We're the generation ending that.",
@@ -150,7 +149,7 @@
     "linkedinUrl": "https://linkedin.com/company/the-yac-foundation/about/",
     "instagramUrl": "https://instagram.com/theyacfoundation/",
     "quickLinks": "Quick links",
-    "tagline": "Public corruption destroys futures. We're ending that.",
+    "tagline": "Public corruption destroys futures. We're the generation ending that.",
     "links": {
       "home": "Home",
       "about": "About",
@@ -222,5 +221,73 @@
         ]
       }
     ]
+  },
+  "aboutPage": {
+    "heading": "About us",
+    "subheading": "We are the generation that refuses to accept public corruption as an inevitable feature of public life.",
+    "missionHeading": "Our Mission",
+    "missionParagraphs": [
+      "While the world addresses symptoms, we target the root cause.",
+      "YAC Foundation is the first youth-led international organization to treat public corruption as what the evidence shows it to be: the structural barrier behind slow development, weakened institutions, and unrealized potential across Latin America and beyond.",
+      "We were founded in 2024 by Nicolas Crow Muñoz and youth advocates from across Latin America who identified a gap that was not being adequately addressed: the direct, measurable connection between public corruption and every major development challenge facing our region and our generation.",
+      "The development community discusses climate. The education community discusses access. The health community discusses coverage. But the structural force that undermines progress across all of these areas — public corruption — has not received the serious, sustained attention it deserves.",
+      "YAC Foundation exists to change that. We bring together young people from every background, ideology, and country. We do not ask where you stand politically. We ask whether you believe that public resources should reach the people they are meant to serve. That public institutions should be accountable to the citizens they represent. That the next generation of leaders should be held — and hold themselves — to a higher standard.",
+      "That conviction is what unites us.",
+      "Through rigorous research, youth-generated data, and principled engagement with international institutions, we are building the evidence base that makes public corruption impossible to ignore — and the network of leaders committed to ending it.",
+      "Today we operate across 15 countries with 200+ fellows producing research and contributing to accountability processes in their communities. We are present at the United Nations ECOSOC Youth Forum and working toward ECOSOC consultative status."
+    ],
+    "valuesHeading": "Our values",
+    "values": [
+      {
+        "title": "Integrity as a standard, not an aspiration.",
+        "description": "We hold ourselves to the same principles we advocate for in public institutions. Our credibility as an organization depends on it."
+      },
+      {
+        "title": "Evidence as our instrument.",
+        "description": "Our engagement with governments and international organizations is grounded in data, research, and rigorous methodology. We build arguments that cannot be dismissed."
+      },
+      {
+        "title": "Youth as a serious voice.",
+        "description": "We engage at the highest levels of multilateral and national policy not as observers, but as contributors — with evidence, proposals, and the commitment to follow through."
+      },
+      {
+        "title": "Unity beyond ideology.",
+        "description": "The fight against public corruption belongs to everyone. We bring together young people from across the political spectrum because integrity in public life is not a left or right issue — it is a generational one."
+      },
+      {
+        "title": "Local knowledge, global relevance.",
+        "description": "Our fellows are embedded in the communities they research. The data reflects lived reality — and that is what gives it its authority."
+      }
+    ]
+  },
+  "notNormalPage": {
+    "eyebrow": "#NotNormal",
+    "heading": "Your experience matters. Your data can change policy.",
+    "subheading": "The Youth Corruption Perception Index is the first public corruption perception index built by young people, for the world.",
+    "intro1": "International organizations and governments have long recognized public corruption as a barrier to development. What has been missing is the systematic, large-scale perspective of the generation most affected by its consequences: young people.",
+    "intro2": "The YCPI exists to fill that gap.",
+    "ctaText": "Be notified at launch →",
+    "ctaUrl": "/en/notify",
+    "statsHeading": "Why this matters",
+    "stats": [
+      {
+        "icon": "📊",
+        "text": "Public corruption costs developing countries an estimated $1.26 trillion every year — resources that could otherwise directly support progress on the SDGs."
+      },
+      {
+        "icon": "🎓",
+        "text": "Young people are among those most affected by public corruption — in their access to quality education, healthcare, and economic opportunity."
+      },
+      {
+        "icon": "🌍",
+        "text": "The youth perspective on public corruption has not been systematically measured at this scale — until now."
+      },
+      {
+        "icon": "🏛️",
+        "text": "The YCPI findings will be presented at the United Nations and shared with governments and international organizations across the region."
+      }
+    ],
+    "commitmentHeading": "#NotNormal is a commitment.",
+    "commitmentBody": "Public corruption has been treated as an inevitable cost of governance for too long. This generation, from every background, every ideology, every country, is united by one conviction: this is not normal, and it does not have to be. We are changing it. Not with noise. With evidence."
   }
 }
