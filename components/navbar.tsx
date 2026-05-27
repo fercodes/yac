@@ -33,7 +33,7 @@ export default function Navbar({ locale }: NavbarProps) {
               className="hover:opacity-80 transition-opacity"
             >
               <Image
-                src="/images/logo2.png"
+                src="/images/logo5.png"
                 alt="Logo"
                 width={120}
                 height={40}
