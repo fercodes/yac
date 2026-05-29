@@ -1,20 +1,21 @@
-import Navbar from '@/components/navbar'
-import Footer from '@/components/footer'
-import MemberCard from '@/components/ui/member-card'
-import { getTranslations } from 'next-intl/server'
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
+import Button from '@/components/button';
+import MemberCard from '@/components/ui/member-card';
+import { getTranslations } from 'next-intl/server';
 
 interface PageProps {
-  params: Promise<{ locale: string }>
+  params: Promise<{ locale: string }>;
 }
 
 interface Member {
-  name: string
-  role: string
-  country: string
-  bio: string
-  photo: string
-  linkedin: string
-  type: string
+  name: string;
+  role: string;
+  country: string;
+  bio: string;
+  photo: string;
+  linkedin: string;
+  type: string;
 }
 
 function MemberGrid({ members }: { members: Member[] }) {
@@ -24,16 +25,16 @@ function MemberGrid({ members }: { members: Member[] }) {
         <MemberCard key={index} member={member} />
       ))}
     </div>
-  )
+  );
 }
 
 export default async function BoardPage({ params }: PageProps) {
-  const { locale } = await params
-  const t = await getTranslations('boardPage')
+  const { locale } = await params;
+  const t = await getTranslations('boardPage');
 
-  const allMembers = t.raw('members') as Member[]
-  const council = allMembers.filter(m => m.type === 'high council')
-  const fellows = allMembers.filter(m => m.type === 'fellow')
+  const allMembers = t.raw('members') as Member[];
+  const council = allMembers.filter((m) => m.type === 'high council');
+  const fellows = allMembers.filter((m) => m.type === 'fellow');
 
   return (
     <main>
@@ -48,9 +49,7 @@ export default async function BoardPage({ params }: PageProps) {
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             {t('heading')}
           </h1>
-          <p className="text-xl text-gray-300 max-w-2xl">
-            {t('subheading')}
-          </p>
+          <p className="text-xl text-gray-300 max-w-2xl">{t('subheading')}</p>
         </div>
       </section>
 
@@ -78,7 +77,19 @@ export default async function BoardPage({ params }: PageProps) {
         </section>
       )}
 
+      {/* CTA */}
+      <section className="bg-primary text-primary-foreground py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <p className="text-2xl md:text-3xl font-bold max-w-xl">
+            {t('ctaText')}
+          </p>
+          <Button href={'/' + locale + '/notnormal'} variant="primary">
+            {t('ctaButtonText')}
+          </Button>
+        </div>
+      </section>
+
       <Footer locale={locale} />
     </main>
-  )
+  );
 }

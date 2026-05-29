@@ -36,7 +36,7 @@
     "items": [
       {
         "title": "Youth Fellows for the SDGs",
-        "description": "200+ young researchers across 15 countries documenting how public corruption undermines SDG progress — producing the evidence that institutions need to act.",
+        "description": "Young leaders across 15 countries documenting how public corruption undermines SDG progress and shapes young people's lives, producing the evidence institutions need to act, and bridging local realities with the tables where decisions are made.",
         "image": "photo16.jpg"
       },
       {
@@ -45,8 +45,8 @@
         "image": "photo4.jpg"
       },
       {
-        "title": "The Integrity Pledge",
-        "description": "Young leaders across Latin America publicly committing to integrity before taking office — creating accountability where it matters most.",
+        "title": "The Youth Report on Corruption and Development",
+        "description": "A regional policy paper analyzing how public corruption affects young people, weakens institutions, and slows sustainable development across Latin America, undermining progress towards the SDGs and the broader 2030 Agenda.",
         "image": "photo5.jpg"
       },
       {
@@ -62,7 +62,9 @@
     "paragraphs": [
       "The evidence is consistent: countries with higher levels of public corruption consistently show slower development, weaker institutions, and fewer opportunities for their citizens, particularly for young people.",
       "Governments, international organizations, and civil society are making significant investments to address the defining challenges of our time: climate change, inequality, lack of opportunity, and access to quality education and healthcare.",
-      "But across Latin America and beyond, public corruption runs underneath every one of these challenges, diverting the resources allocated to solve them, weakening the institutions responsible for delivering them, and widening the gap between policy commitments and lived reality.",
+      "Yet across Latin America and beyond, public corruption remains one of the underlying barriers connecting many of these challenges. It diverts the resources allocated to solve them, weakens the institutions responsible for delivering them, and widens the gap between policy commitments and lived reality.",
+      "According to Transparency International, many developing countries have shown little to no progress in reducing public corruption over the past decade. At the same time, a growing wave of Gen Z and youth-led movements across the world is increasingly mobilizing against corruption, exclusion, and weak governance, recognizing their direct impact on development and on young people's daily lives.",
+      "The message from younger generations is becoming clear: sustainable development cannot exist without stronger institutions and greater public integrity. It is time for leaders and institutions to respond with the seriousness and urgency this challenge requires.",
       "Our generation recognizes this pattern. And we are committed to addressing it with the evidence, the seriousness, and the urgency it deserves."
     ]
   },
@@ -106,7 +108,7 @@
     ]
   },
   "footer": {
-    "contact": "Contact",
+    "contact": "Press and inquiries",
     "email": "yaclatam@gmail.com",
     "linkedinUrl": "https://linkedin.com/company/the-yac-foundation/about/",
     "instagramUrl": "https://instagram.com/theyacfoundation/",
@@ -132,21 +134,21 @@
     "items": [
       {
         "title": "Youth Fellows for the SDGs",
-        "subtitle": "200+ young researchers. 15 countries. One mission.",
+        "subtitle": "500+ members. 15 countries. One mission.",
         "image": "photo16.jpg",
-        "buttonText": "Apply to become a fellow",
+        "buttonText": "Applications closed",
         "buttonUrl": "/en/fellows",
         "body": [
-          "The Youth Fellows for the SDGs program recruits and trains young leaders from across Latin America, from different backgrounds, ideologies, and disciplines, to research and document how public corruption affects progress on the Sustainable Development Goals in their communities.",
+          "The Youth Fellows for the SDGs program recruits young leaders from across Latin America, from different backgrounds, ideologies, and disciplines, to research and document how public corruption affects progress on the Sustainable Development Goals in their communities.",
           "Each fellow is assigned a specific SDG and country, producing research, data, and policy insights that feed directly into the Youth Corruption Perception Index and YAC Foundation's engagement with international organizations and national governments.",
-          "Our fellows are researchers embedded in their communities, producing evidence that connects local reality to global policy."
+          "Our fellows are leaders embedded in their communities, producing evidence that connects local reality to global policy."
         ]
       },
       {
         "title": "Youth Corruption Perception Index",
         "subtitle": "The first public corruption perception index built by youth, for the world.",
         "image": "photo4.jpg",
-        "buttonText": "Be notified at launch →",
+        "buttonText": "Be notified at launch",
         "buttonUrl": "/en/notify",
         "body": [
           "Governments measure public corruption. Academic institutions measure public corruption. But the perspective of young people, the generation most directly affected by its long-term consequences, has not been systematically captured at scale.",
@@ -160,7 +162,7 @@
         "title": "The Youth Report on Corruption and Development",
         "subtitle": "Understanding how public corruption affects young people, institutions, and sustainable development across Latin America.",
         "image": "photo5.jpg",
-        "buttonText": "Learn more →",
+        "buttonText": "Learn more",
         "buttonUrl": "/en/report",
         "body": [
           "Public corruption is often discussed as a political or legal issue, but for millions of young people it is experienced as a direct barrier to opportunity, development, and trust in institutions. It limits access to education, employment, public services, and meaningful participation in decision-making processes.",
@@ -197,7 +199,7 @@
       "YAC Foundation exists to change that. We bring together young people from every background, ideology, and country. We do not ask where you stand politically. We ask whether you believe that public resources should reach the people they are meant to serve. That public institutions should be accountable to the citizens they represent. That the next generation of leaders should be held — and hold themselves — to a higher standard.",
       "That conviction is what unites us.",
       "Through rigorous research, youth-generated data, and principled engagement with international institutions, we are building the evidence base that makes public corruption impossible to ignore — and the network of leaders committed to ending it.",
-      "Today we operate across 15 countries with 200+ fellows producing research and contributing to accountability processes in their communities. We are present at the United Nations ECOSOC Youth Forum and working toward ECOSOC consultative status."
+      "Today we operate across 15 countries with fellows producing research and contributing to accountability processes in their communities."
     ],
     "valuesHeading": "Our values",
     "values": [
@@ -214,7 +216,7 @@
         "description": "We engage at the highest levels of multilateral and national policy not as observers, but as contributors — with evidence, proposals, and the commitment to follow through."
       },
       {
-        "title": "Unity beyond ideology.",
+        "title": "Unity and inclusion beyond ideology.",
         "description": "The fight against public corruption belongs to everyone. We bring together young people from across the political spectrum because integrity in public life is not a left or right issue — it is a generational one."
       },
       {
@@ -229,7 +231,7 @@
     "subheading": "The Youth Corruption Perception Index is the first public corruption perception index built by young people, for the world.",
     "intro1": "International organizations and governments have long recognized public corruption as a barrier to development. What has been missing is the systematic, large-scale perspective of the generation most affected by its consequences: young people.",
     "intro2": "The YCPI exists to fill that gap.",
-    "ctaText": "Be notified at launch →",
+    "ctaText": "Be notified at launch",
     "ctaUrl": "/en/notify",
     "statsHeading": "Why this matters",
     "stats": [
@@ -342,9 +344,11 @@
   "boardPage": {
     "eyebrow": "Who leads us",
     "heading": "Our Board",
-    "subheading": "Meet the leaders and fellows driving our mission across Latin America and beyond.",
+    "subheading": "YAC Foundation is guided by a board of young leaders from across the Americas, researchers, advocates, lawyers, and emerging public servants from different backgrounds and ideologies, united by one conviction: public corruption is not an inevitable feature of public life, and this generation has both the responsibility and the capacity to address it.",
     "councilHeading": "High Council",
     "fellowsHeading": "Fellows",
+    "ctaText": "Want to be part of this?",
+    "ctaButtonText": "Join the movement",
     "linkText": "View all members",
     "members": [
       {

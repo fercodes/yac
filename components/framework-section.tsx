@@ -24,7 +24,7 @@ export default function FrameworkSection({ locale }: FrameworkSectionProps) {
               (paragraph: string, index: number) => (
                 <p
                   key={index}
-                  className="text-lg text-gray-300 leading-relaxed"
+                  className={`text-lg leading-relaxed ${index === 1 ? 'font-bold text-white' : 'text-gray-300'}`}
                 >
                   {paragraph}
                 </p>
