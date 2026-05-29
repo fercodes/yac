@@ -96,13 +96,13 @@ export default function Footer({ locale }: FooterProps) {
             <h4 className="font-bold text-lg mb-4">{t('legal')}</h4>
             <div className="space-y-2 text-sm text-gray-300">
               <Link
-                href="#"
+                href={'/' + locale + '/privacy'}
                 className="block hover:opacity-80 transition-opacity"
               >
                 {t('privacy')}
               </Link>
               <Link
-                href="#"
+                href={'/' + locale + '/terms'}
                 className="block hover:opacity-80 transition-opacity"
               >
                 {t('terms')}

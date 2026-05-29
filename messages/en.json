@@ -252,6 +252,92 @@
     "commitmentHeading": "#NotNormal is a commitment.",
     "commitmentBody": "Public corruption has been treated as an inevitable cost of governance for too long. This generation, from every background, every ideology, every country, is united by one conviction: this is not normal, and it does not have to be. We are changing it. Not with noise. With evidence."
   },
+  "privacy": {
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated: May 2026",
+    "s1": {
+      "heading": "1. Who We Are",
+      "body": "[LEGAL NAME] (\"we\", \"our\", or \"us\") is a nonprofit organization registered in [COUNTRY]. We are committed to protecting your personal data and respecting your privacy. For any questions regarding this policy, contact us at [PRIVACY EMAIL]."
+    },
+    "s2": {
+      "heading": "2. What Data We Collect",
+      "body": "We only collect personal data that you voluntarily provide to us through our website forms. This may include:",
+      "items": [
+        "Full name",
+        "Email address",
+        "Phone number",
+        "Country of residence"
+      ]
+    },
+    "s3": {
+      "heading": "3. How We Use Your Data",
+      "body": "We use your personal data solely for the following purposes:",
+      "items": [
+        "To notify you about the launch of campaigns, surveys, or initiatives you expressed interest in",
+        "To invite you to participate in the Youth Corruption Perception Index or related programs",
+        "To send you updates relevant to our mission that you have consented to receive"
+      ]
+    },
+    "s4": {
+      "heading": "4. Legal Basis for Processing",
+      "body": "We process your personal data based on your explicit consent, provided when you voluntarily submit your information through our forms. You may withdraw your consent at any time by contacting us at [PRIVACY EMAIL]."
+    },
+    "s5": {
+      "heading": "5. Your Rights",
+      "body": "Depending on your country of residence, you may have the following rights regarding your personal data:",
+      "items": [
+        "The right to access the personal data we hold about you",
+        "The right to request correction of inaccurate data",
+        "The right to request deletion of your data",
+        "The right to withdraw consent at any time",
+        "The right to lodge a complaint with a data protection authority"
+      ]
+    },
+    "s6": {
+      "heading": "6. Data Sharing",
+      "body": "We do not sell, rent, or share your personal data with third parties for commercial purposes. Your data may be processed by trusted service providers (such as form platforms) strictly for the purposes described in this policy, under confidentiality obligations."
+    },
+    "s7": {
+      "heading": "7. Data Retention",
+      "body": "We retain your personal data only for as long as necessary to fulfill the purposes described in this policy, or until you request its deletion. We will not retain data beyond what is reasonably needed for our legitimate organizational activities."
+    },
+    "s8": {
+      "heading": "8. Contact",
+      "body": "If you have any questions, requests, or concerns regarding this Privacy Policy or the handling of your personal data, please contact us at [PRIVACY EMAIL]."
+    }
+  },
+  "terms": {
+    "heading": "Terms of Use",
+    "lastUpdated": "Last updated: May 2026",
+    "s1": {
+      "heading": "1. Acceptance of Terms",
+      "body": "By accessing and using this website, you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use this website. These terms apply to all visitors and users of [LEGAL NAME]'s website."
+    },
+    "s2": {
+      "heading": "2. About This Website",
+      "body": "This website is operated by [LEGAL NAME], a nonprofit organization dedicated to addressing public corruption through youth-led research, data, and advocacy. The content published here is intended for informational and civic purposes."
+    },
+    "s3": {
+      "heading": "3. Intellectual Property",
+      "body": "All content on this website — including text, research, data, graphics, and reports — is the property of [LEGAL NAME] unless otherwise stated. You may share or reproduce our content for non-commercial purposes provided you clearly attribute [LEGAL NAME] as the source and do not alter the content."
+    },
+    "s4": {
+      "heading": "4. Use of the Website",
+      "body": "You agree to use this website only for lawful purposes. You must not misuse, disrupt, or attempt to gain unauthorized access to any part of this website or its associated systems. [LEGAL NAME] reserves the right to restrict access to any user who violates these terms."
+    },
+    "s5": {
+      "heading": "5. External Links",
+      "body": "This website may contain links to third-party websites. These links are provided for convenience only. [LEGAL NAME] does not endorse or take responsibility for the content, privacy practices, or terms of any external websites."
+    },
+    "s6": {
+      "heading": "6. Disclaimer",
+      "body": "The information on this website is provided in good faith for informational purposes. [LEGAL NAME] makes no warranties regarding the completeness or accuracy of the content. Research findings and data represent the work of our fellows and contributors and should be interpreted in their proper context."
+    },
+    "s7": {
+      "heading": "7. Changes to These Terms",
+      "body": "We may update these Terms of Use from time to time. Changes will be posted on this page with an updated date. Continued use of the website after changes are posted constitutes your acceptance of the revised terms. For questions, contact us at [PRIVACY EMAIL]."
+    }
+  },
   "boardPage": {
     "eyebrow": "Who leads us",
     "heading": "Our Board",
