@@ -25,44 +25,6 @@
     "linkText": "About us",
     "linkUrl": "/en/about"
   },
-  "board": {
-    "eyebrow": "",
-    "heading": "Meet our board",
-    "linkText": "View all members",
-    "linkUrl": "/en/board",
-    "members": [
-      {
-        "name": "",
-        "role": "",
-        "country": "",
-        "oneLiner": ""
-      },
-      {
-        "name": "",
-        "role": "",
-        "country": "",
-        "oneLiner": ""
-      },
-      {
-        "name": "",
-        "role": "",
-        "country": "",
-        "oneLiner": ""
-      },
-      {
-        "name": "",
-        "role": "",
-        "country": "",
-        "oneLiner": ""
-      },
-      {
-        "name": "",
-        "role": "",
-        "country": "",
-        "oneLiner": ""
-      }
-    ]
-  },
   "projects": {
     "eyebrow": "What we do",
     "title": "Projects",
@@ -296,6 +258,7 @@
     "subheading": "Meet the leaders and fellows driving our mission across Latin America and beyond.",
     "councilHeading": "High Council",
     "fellowsHeading": "Fellows",
+    "linkText": "View all members",
     "members": [
       {
         "photo": "nicolas_sebastian_crow.jpg",
@@ -361,21 +324,21 @@
         "type": "high council"
       },
       {
-        "photo": "camila_rios.jpg",
-        "role": "Senior Advisor on Social Media and Digital Advertising",
-        "name": "Camila Rios",
-        "country": "Ecuador",
-        "bio": "Camila Ríos focuses her work on advertising, social media management, and digital content creation, with a strong emphasis on aesthetics, branding, and visual storytelling. She has worked closely with international and regional brands including Domino's Pizza, Crocs, Bioderma, Mercado Libre, and other companies across the lifestyle, beauty, and consumer industries. \nHer work centers on creative direction, strategic communication, and the development of digital campaigns and content designed to strengthen brand identity and audience engagement. Her work is closely aligned with SDG 9 on Industry, Innovation and Infrastructure and SDG 17 on Partnerships for the Goals.",
-        "linkedin": "https://www.linkedin.com/in/camila-r%C3%ADos-68a9472a7/?locale=es",
-        "type": "high council"
-      },
-      {
         "photo": "luis_v_villaherrera.jpg",
         "role": "Advisor on AI, Transparency, and Governance",
         "name": "Luis V Villaherrera",
         "country": "El Salvador",
         "bio": "Luis V. Villaherrera is an expert on Open data, transparency, AI deployment, and design. He is the first Obama Scholar from the region and one of the finalists for the Kofi Annan Democracy Prize. He has been part of various McKinsey programs, American Express (AMEX), and innovation social impact initiatives from UPenn. \nHis expertise spans the non-profit, public speaking, and private sectors, advising multinational companies on strategic communications and connecting them with governments in the region. \nHis opinions on transparency and the rule of law have been published and quoted in Global Americans and America Quarterly, among others; furthermore, he has been invited to Pod Save the World and Global Minnesota to share his work. In 2017, he co-founded a non-profit to create innovative projects focusing on technological tools and capacity-building to combat corruption and foster democracy and elections. ",
         "linkedin": "https://www.linkedin.com/in/luis-v-villaherrera-81aa63138/",
+        "type": "high council"
+      },
+      {
+        "photo": "camila_rios.jpg",
+        "role": "Senior Advisor on Social Media and Digital Advertising",
+        "name": "Camila Rios",
+        "country": "Ecuador",
+        "bio": "Camila Ríos focuses her work on advertising, social media management, and digital content creation, with a strong emphasis on aesthetics, branding, and visual storytelling. She has worked closely with international and regional brands including Domino's Pizza, Crocs, Bioderma, Mercado Libre, and other companies across the lifestyle, beauty, and consumer industries. \nHer work centers on creative direction, strategic communication, and the development of digital campaigns and content designed to strengthen brand identity and audience engagement. Her work is closely aligned with SDG 9 on Industry, Innovation and Infrastructure and SDG 17 on Partnerships for the Goals.",
+        "linkedin": "https://www.linkedin.com/in/camila-r%C3%ADos-68a9472a7/?locale=es",
         "type": "high council"
       },
       {
@@ -397,15 +360,6 @@
         "type": "high council"
       },
       {
-        "photo": "fernanda_alvarez_aguilar.jpg",
-        "role": "Advisor on Policy and Research",
-        "name": "Fernanda Camila Álvarez Aguilar",
-        "country": "Peru",
-        "bio": "Fernanda Camila Álvarez Aguilar is a law student, youth leader, and Founder of YIA, an initiative focused on youth empowerment, leadership, and civic engagement. She also serves as an Andean Parliamentarian, contributing to regional dialogue, democratic participation, and youth representation within multilateral and political spaces across Latin America. \nAlongside her academic and institutional work, she is a selected taekwondo athlete, reflecting a strong commitment to discipline, resilience, and high performance. Her work is closely aligned with SDG 16 on Peace, Justice, and Strong Institutions, promoting greater youth participation in governance and public leadership.",
-        "linkedin": "https://www.linkedin.com/in/fernanda-camila-%C3%A1lvarez-aguilar-393101229/",
-        "type": "high council"
-      },
-      {
         "photo": "jazbia_shirin.jpg",
         "role": "Senior Advisor on Research and Asia-Pacific Affairs",
         "name": "Jazbia Shirin",
@@ -413,6 +367,15 @@
         "bio": "Dr. Jazbia Shirin is an ecologist and postdoctoral researcher at Peking University Shenzhen Graduate School, China. She holds a Ph.D. in Ecology from Anhui University and her research focuses on environmental science, ecotoxicology, soil microbiology, and sustainable waste management, particularly the impact of microplastics and heavy metals on soil-plant-microbe systems. She has published multiple peer-reviewed articles in leading scientific journals including the Journal of Soils and Sediments, Frontiers in Plant Science, and Ecotoxicology and Environmental Safety. \nShe serves as a Global Peace Ambassador, Vice President of the Global Literary Temple, Board Member of the International Women Parliament, Executive Member of the Global Youth Peace Committee, and Advisory Board Member at iBridge Education. A former news broadcaster and radio jockey, she has also been invited to speak at international forums including the UN ECOSOC Youth Forum 2026 in New York, the International Climate Change Conference, and the International Youth Conference. \nHer work focuses on climate action, peacebuilding, youth empowerment, environmental sustainability, and science communication across the Asia-Pacific region and the Global South. Her work is closely aligned with SDG 13 on Climate Action, SDG 15 on Life on Land, SDG 6 on Clean Water and Sanitation, SDG 4 on Quality Education, and SDG 16 on Peace, Justice, and Strong Institutions.",
         "linkedin": "www.linkedin.com/in/jazbia-shirin-0429795a/",
         "type": "high council"
+      },
+      {
+        "photo": "fernanda_alvarez_aguilar.jpg",
+        "role": "Advisor on Policy and Research",
+        "name": "Fernanda Camila Álvarez Aguilar",
+        "country": "Peru",
+        "bio": "Fernanda Camila Álvarez Aguilar is a law student, youth leader, and Founder of YIA, an initiative focused on youth empowerment, leadership, and civic engagement. She also serves as an Andean Parliamentarian, contributing to regional dialogue, democratic participation, and youth representation within multilateral and political spaces across Latin America. \nAlongside her academic and institutional work, she is a selected taekwondo athlete, reflecting a strong commitment to discipline, resilience, and high performance. Her work is closely aligned with SDG 16 on Peace, Justice, and Strong Institutions, promoting greater youth participation in governance and public leadership.",
+        "linkedin": "https://www.linkedin.com/in/fernanda-camila-%C3%A1lvarez-aguilar-393101229/",
+        "type": "fellow"
       },
       {
         "photo": "francia_serrano.jpg",
