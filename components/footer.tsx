@@ -20,7 +20,7 @@ export default function Footer({ locale }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4">
-              Youth Against Corruption
+              YAC FOUNDATION | YOUTH AGAINST CORRUPTION
             </h3>
             <p className="text-sm text-gray-300 mb-4 italic">{t('tagline')}</p>
             <div className="space-y-2 text-sm text-gray-300">

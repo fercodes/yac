@@ -9,13 +9,13 @@
   "hero": {
     "headline": "Public corruption is the crisis behind every crisis. We're the generation ending that.",
     "subtitle": "We believe in the power of collective action to create meaningful change.",
-    "ctaText": "Join the movement",
+    "ctaText": "Join the organization",
     "ctaUrl": "/en/notnormal"
   },
   "about": {
     "eyebrow": "Who we are",
-    "title": "While the world addresses symptoms, we target the root cause",
-    "description": "YAC Foundation is the first youth-led international organization to treat public corruption as what the evidence shows it to be: the structural barrier behind slow development, weakened institutions, and unrealized potential. We bring together young leaders from every background, ideology, and country, united not by politics, but by one shared conviction: public corruption is not inevitable, and this generation will prove it.",
+    "title": "While the world addresses symptoms, we target the root cause.",
+    "description": "Public corruption costs developing countries $1.26 trillion every year (World Economic Forum), not as an abstraction, but as resources that never reach those they are meant to serve. It is the single most consistent barrier to progress on the SDGs and the least treated as a priority, and young people pay the highest price, inheriting systems that limit their access to opportunity and institutions that work. YAC Foundation is the first youth-led international organization built around that premise, bringing together young leaders from across the globe to generate the evidence the world needs to urge leaders and institutions to act.",
     "bullets": [
       "We measure it.",
       "We document it.",
@@ -41,7 +41,7 @@
       },
       {
         "title": "Youth Corruption Perception Index",
-        "description": "The first youth-led public corruption perception index in Latin America — turning the lived experience of young people across 15 countries into policy-grade evidence.",
+        "description": "The first youth-led public corruption perception index in Latin America, turning the lived experience of young people across 15 countries into policy-grade evidence.",
         "image": "photo4.jpg"
       },
       {
@@ -51,7 +51,7 @@
       },
       {
         "title": "Youth Integrity Academy",
-        "description": "Building the next generation of leaders equipped to demand and practice integrity in public life — beyond ethics, toward action.",
+        "description": "Building the next generation of leaders equipped to demand and practice integrity in public life, beyond ethics, toward action.",
         "image": "photo14.jpg"
       }
     ]
@@ -63,7 +63,7 @@
       "The evidence is consistent: countries with higher levels of public corruption consistently show slower development, weaker institutions, and fewer opportunities for their citizens, particularly for young people.",
       "Governments, international organizations, and civil society are making significant investments to address the defining challenges of our time: climate change, inequality, lack of opportunity, and access to quality education and healthcare.",
       "Yet across Latin America and beyond, public corruption remains one of the underlying barriers connecting many of these challenges. It diverts the resources allocated to solve them, weakens the institutions responsible for delivering them, and widens the gap between policy commitments and lived reality.",
-      "According to Transparency International, many developing countries have shown little to no progress in reducing public corruption over the past decade. At the same time, a growing wave of Gen Z and youth-led movements across the world is increasingly mobilizing against corruption, exclusion, and weak governance, recognizing their direct impact on development and on young people's daily lives.",
+      "According to Transparency International, many developing countries have shown little to no progress in reducing public corruption over the past decade. At the same time, a growing wave of Gen Z and youth-led movements across the world is increasingly mobilizing against public corruption and weak governance, recognizing their direct impact on development and on young people's daily lives.",
       "The message from younger generations is becoming clear: sustainable development cannot exist without stronger institutions and greater public integrity. It is time for leaders and institutions to respond with the seriousness and urgency this challenge requires.",
       "Our generation recognizes this pattern. And we are committed to addressing it with the evidence, the seriousness, and the urgency it deserves."
     ]
@@ -71,7 +71,7 @@
   "sdgs": {
     "eyebrow": "Our impact",
     "heading": "Accelerating the achievement of the Sustainable Development Goals (SDGs)",
-    "ctaLinkText": "Join the movement",
+    "ctaLinkText": "Join the organization",
     "ctaLinkUrl": "/en/join",
     "cta": "Public corruption is not inevitable. Join the generation committed to proving it.",
     "items": [
@@ -88,12 +88,12 @@
       {
         "icon": "org3.png",
         "title": "Good Health",
-        "description": "Healthcare outcomes are closely linked to the integrity of public systems. Public corruption in health procurement and administration affects the availability of medicines and services — disproportionately impacting those who need them most."
+        "description": "Healthcare outcomes are closely linked to the integrity of public systems. Public corruption in health procurement and administration affects the availability of medicines and services, disproportionately impacting those who need them most."
       },
       {
         "icon": "org7.png",
         "title": "Decent Work",
-        "description": "Fair economic opportunity requires fair institutions. Public corruption distorts competition and closes doors based on connection rather than merit — disproportionately affecting young people entering the workforce."
+        "description": "Fair economic opportunity requires fair institutions. Public corruption distorts competition and closes doors based on connection rather than merit, disproportionately affecting young people entering the workforce."
       },
       {
         "icon": "org2.webp",
@@ -109,7 +109,7 @@
   },
   "footer": {
     "contact": "Press and inquiries",
-    "email": "yaclatam@gmail.com",
+    "email": "press@theyacfoundation.org",
     "linkedinUrl": "https://linkedin.com/company/the-yac-foundation/about/",
     "instagramUrl": "https://instagram.com/theyacfoundation/",
     "quickLinks": "Quick links",
@@ -125,12 +125,12 @@
     "legal": "Legal",
     "privacy": "Privacy policy",
     "terms": "Terms of use",
-    "copyright": "© 2026 Youth Against Corruption. All rights reserved."
+    "copyright": "© 2026 YAC FOUNDATION. All rights reserved."
   },
   "projectsPage": {
     "eyebrow": "Our work",
     "heading": "Projects",
-    "subheading": "We don't just talk about public corruption. We build the tools to address it — and the leaders committed to ending it.",
+    "subheading": "We don't just talk about public corruption. We build the tools to address it, and the leaders committed to ending it.",
     "items": [
       {
         "title": "Youth Fellows for the SDGs",
@@ -167,7 +167,7 @@
         "body": [
           "Public corruption is often discussed as a political or legal issue, but for millions of young people it is experienced as a direct barrier to opportunity, development, and trust in institutions. It limits access to education, employment, public services, and meaningful participation in decision-making processes.",
           "The Youth Report on Corruption and Development is a regional policy paper developed with the support of young researchers, fellows, and contributors across Latin America. Through research, field perspectives, and youth-led analysis, the report examines how corruption weakens institutions, slows sustainable development, and disproportionately affects younger generations.",
-          "The initiative seeks to reposition public corruption as one of the principal obstacles to sustainable development and stronger institutions, connecting governance challenges with broader issues such as inequality, youth exclusion, and limited economic opportunity.",
+          "The initiative seeks to reposition public corruption as one of the principal obstacles to sustainable development and stronger institutions, connecting governance challenges with broader issues such as inequality, public corruption, and limited economic opportunity.",
           "The final report will be presented to public authorities, policymakers, international organizations, and development actors, with the objective of generating awareness, strengthening public dialogue, and advancing more transparent, inclusive, and effective governance models.",
           "Because sustainable development cannot exist without stronger institutions. And stronger institutions cannot exist where corruption is normalized."
         ]
@@ -181,7 +181,8 @@
         "body": [
           "The Youth Integrity Academy is a regional training program that equips young leaders with the knowledge, analytical tools, and professional networks to advocate for and practice integrity in public life, in their institutions, their communities, and their future roles in government and civil society.",
           "Participants in the Youth Integrity Academy are not just trained, they are prepared. Prepared to recognize the mechanisms of public corruption, to build systems that resist it, and to lead institutions that reflect the standard their communities deserve.",
-          "The Academy's graduates are the first signatories of the Integrity Pledge — and the foundation of YAC Foundation's growing network of leaders committed to a higher standard of public life across Latin America."
+          "The Academy's graduates are the first signatories of the Integrity Pledge, and the foundation of YAC Foundation's growing network of leaders committed to a higher standard of public life across Latin America.",
+          "Following the success of our inaugural Academy, applications for the 2026 Winter edition will open soon."
         ]
       }
     ]
@@ -194,40 +195,36 @@
     "missionParagraphs": [
       "While the world addresses symptoms, we target the root cause.",
       "YAC Foundation is the first youth-led international organization to treat public corruption as what the evidence shows it to be: the structural barrier behind slow development, weakened institutions, and unrealized potential across Latin America and beyond.",
-      "We were founded in 2024 by Nicolas Crow Muñoz and youth advocates from across Latin America who identified a gap that was not being adequately addressed: the direct, measurable connection between public corruption and every major development challenge facing our region and our generation.",
-      "The development community discusses climate. The education community discusses access. The health community discusses coverage. But the structural force that undermines progress across all of these areas — public corruption — has not received the serious, sustained attention it deserves.",
-      "YAC Foundation exists to change that. We bring together young people from every background, ideology, and country. We do not ask where you stand politically. We ask whether you believe that public resources should reach the people they are meant to serve. That public institutions should be accountable to the citizens they represent. That the next generation of leaders should be held — and hold themselves — to a higher standard.",
+      "We were founded in 2024 by Nicolas Crow and youth advocates from across Latin America who identified a gap that was not being adequately addressed: the direct, measurable connection between public corruption and every major development challenge facing our region and our generation.",
+      "The development community discusses climate. The education community discusses access. The health community discusses coverage. But the structural force that undermines progress across all of these areas (public corruption) has not received the serious, sustained attention it deserves.",
+      "YAC Foundation exists to change that. We bring together young people from every background, ideology, and country. We do not ask where you stand politically. We ask whether you believe that public resources should reach the people they are meant to serve. That public institutions should be accountable to the citizens they represent. That the next generation of leaders should be held (and hold themselves) to a higher standard.",
       "That conviction is what unites us.",
-      "Through rigorous research, youth-generated data, and principled engagement with international institutions, we are building the evidence base that makes public corruption impossible to ignore — and the network of leaders committed to ending it.",
+      "Through rigorous research, youth-generated data, and principled engagement with international institutions, we are building the evidence base that makes public corruption impossible to ignore, and the network of leaders committed to ending it.",
       "Today we operate across 15 countries with fellows producing research and contributing to accountability processes in their communities."
     ],
     "valuesHeading": "Our values",
     "values": [
-      {
-        "title": "Integrity as a standard, not an aspiration.",
-        "description": "We hold ourselves to the same principles we advocate for in public institutions. Our credibility as an organization depends on it."
-      },
       {
         "title": "Evidence as our instrument.",
         "description": "Our engagement with governments and international organizations is grounded in data, research, and rigorous methodology. We build arguments that cannot be dismissed."
       },
       {
         "title": "Youth as a serious voice.",
-        "description": "We engage at the highest levels of multilateral and national policy not as observers, but as contributors — with evidence, proposals, and the commitment to follow through."
+        "description": "We engage at the highest levels of multilateral and national policy not as observers, but as contributors: with evidence, proposals, and the commitment to follow through."
       },
       {
         "title": "Unity and inclusion beyond ideology.",
-        "description": "The fight against public corruption belongs to everyone. We bring together young people from across the political spectrum because integrity in public life is not a left or right issue — it is a generational one."
+        "description": "The fight against public corruption belongs to everyone. We bring together young people from across the political spectrum, because integrity in public life is not a left or right issue. It is a generational one."
       },
       {
         "title": "Local knowledge, global relevance.",
-        "description": "Our fellows are embedded in the communities they research. The data reflects lived reality — and that is what gives it its authority."
+        "description": "Our fellows are embedded in the communities they research. The data reflects lived reality, and that is what gives it its authority."
       }
     ]
   },
   "notNormalPage": {
     "eyebrow": "#NotNormal",
-    "heading": "Your experience matters. Your data can change policy.",
+    "heading": "Your experience matters. Your data can change policy, accelerate development and impact realities.",
     "subheading": "The Youth Corruption Perception Index is the first public corruption perception index built by young people, for the world.",
     "intro1": "International organizations and governments have long recognized public corruption as a barrier to development. What has been missing is the systematic, large-scale perspective of the generation most affected by its consequences: young people.",
     "intro2": "The YCPI exists to fill that gap.",
@@ -237,15 +234,15 @@
     "stats": [
       {
         "icon": "📊",
-        "text": "Public corruption costs developing countries an estimated $1.26 trillion every year — resources that could otherwise directly support progress on the SDGs."
+        "text": "Public corruption costs developing countries an estimated $1.26 trillion every year. Resources that could otherwise directly support progress on the SDGs."
       },
       {
         "icon": "🎓",
-        "text": "Young people are among those most affected by public corruption — in their access to quality education, healthcare, and economic opportunity."
+        "text": "Young people are among those most affected by public corruption. In their access to quality education, healthcare, and economic opportunity."
       },
       {
         "icon": "🌍",
-        "text": "The youth perspective on public corruption has not been systematically measured at this scale — until now."
+        "text": "The youth perspective on public corruption has not been systematically measured at this scale, until now."
       },
       {
         "icon": "🏛️",
@@ -322,7 +319,7 @@
     },
     "s3": {
       "heading": "3. Intellectual Property",
-      "body": "All content on this website — including text, research, data, graphics, and reports — is the property of [LEGAL NAME] unless otherwise stated. You may share or reproduce our content for non-commercial purposes provided you clearly attribute [LEGAL NAME] as the source and do not alter the content."
+      "body": "All content on this website (including text, research, data, graphics, and reports) is the property of [LEGAL NAME] unless otherwise stated. You may share or reproduce our content for non-commercial purposes provided you clearly attribute [LEGAL NAME] as the source and do not alter the content."
     },
     "s4": {
       "heading": "4. Use of the Website",
@@ -343,26 +340,26 @@
   },
   "boardPage": {
     "eyebrow": "Who leads us",
-    "heading": "Our Board",
+    "heading": "Board of Directors and Advisors",
     "subheading": "YAC Foundation is guided by a board of young leaders from across the Americas, researchers, advocates, lawyers, and emerging public servants from different backgrounds and ideologies, united by one conviction: public corruption is not an inevitable feature of public life, and this generation has both the responsibility and the capacity to address it.",
-    "councilHeading": "High Council",
+    "councilHeading": "Board of Directors and Advisors",
     "fellowsHeading": "Fellows",
     "ctaText": "Want to be part of this?",
-    "ctaButtonText": "Join the movement",
+    "ctaButtonText": "Join the organization",
     "linkText": "View all members",
     "members": [
       {
         "photo": "nicolas_sebastian_crow.jpg",
-        "role": "Founder & Secretary-General",
-        "name": "Nicolas Sebastian Crow",
+        "role": "Founder & Executive Director",
+        "name": "Nicolas C",
         "country": "Ecuador",
-        "bio": "Nicolas Crow is the Founder of YAC Foundation, a youth-led international organization active across 15 countries focused on governance, transparency, and combating public corruption to advance sustainable development through youth-centered approaches. He oversees the organization's relations with governments, international organizations, youth-led institutions, and Gen Z movements worldwide, while also leading its international expansion and strategic development. He has represented the organization in high-level international forums and has served as an advisor on different boards. \nHe holds a law degree from Universidad San Francisco de Quito and has pursued academic studies at University of Cambridge, Peking University, and Beijing International Studies University. He speaks three languages, and his professional work centers on youth affairs, transactional law, governance, and public-private cooperation for development.\nHe believes integrity should remain at the center of every Sustainable Development Goal, as public corruption directly affects progress across all areas of development. His work is particularly aligned with SDG 16 on Peace, Justice, and Strong Institutions, especially targets 16.5 and 16.6 focused on reducing corruption and building effective, accountable, and transparent institutions.",
+        "bio": "Nicolas Crow is the Founder of YAC Foundation, a youth-led international organization active across 15 countries focused on governance, transparency, and combating public corruption to advance sustainable development. He oversees the organization's relations with governments, international organizations, and Gen Z movements worldwide, while leading its international expansion and strategic development. He has represented YAC Foundation in high-level international forums and has served as an advisor on different boards. \nAlongside his work at YAC Foundation, Nicolas works at the intersection of law, business, and government, advising on political and legal strategy, public affairs, regulatory affairs, and international cooperation across the public and private sectors. His legal background includes public international law, with a focus on emerging markets development, AI regulation, and the institutional frameworks that support sustainable and responsible growth. \nHe holds a law degree from Universidad San Francisco de Quito and has pursued academic studies at the University of Cambridge, Peking University, and Beijing International Studies University. He speaks three languages and has engaged with governments, multilateral institutions, and civil society organizations across multiple regions. He believes integrity should remain at the center of every Sustainable Development Goal as an essential pillar, and that empowering young people to engage seriously with governance and public institutions is one of the most consequential investments the international community can make. His work is particularly aligned with SDG 16 on Peace, Justice, and Strong Institutions, especially targets 16.5 and 16.6 focused on reducing corruption and building effective, accountable, and transparent institutions.",
         "linkedin": "https://www.linkedin.com/in/nicolas-crow-30b300210/",
         "type": "high council"
       },
       {
         "photo": "leslie_collao_basan.jpg",
-        "role": "Chief of Internal Affairs",
+        "role": "Director of Internal Affairs",
         "name": "Leslie Collao Bazan",
         "country": "Peru",
         "bio": "Leslie Collao Bazan is the Founder of Kusisqa and served as Peru's Youth Delegate to the United Nations for the 2024-2025 term, representing the voices of young people in international decision-making spaces and multilateral dialogues. \nHer work focuses on advancing youth leadership, gender equality, and climate justice across Peru and Latin America, promoting greater youth participation as a driver of social transformation. She is currently pursuing studies in Business Administration and was recognized as part of Forbes 30 Under 30 Peru for her contributions to youth advocacy and social impact initiatives. Her work is closely aligned with SDG 5 on Gender Equality.",
@@ -389,7 +386,7 @@
       },
       {
         "photo": "frandy_morales_rodriguez.jpg",
-        "role": "Chief of Strategic Partnerships and Venezuelan Affairs",
+        "role": "Director of Strategic Partnerships and Venezuelan Affairs",
         "name": "Frandy Morales Rodríguez",
         "country": "Venezuela",
         "bio": "Frandy Alexandra Morales Rodríguez is an advocate for freedom of expression, youth participation, and democratic engagement, with a strong interest in institutional development and social justice. Her work and perspectives focus on empowering younger generations to actively contribute to more inclusive, participatory, and democratic societies. \nShe believes that peace and social justice can only be sustained through strong institutions that protect fundamental rights and civic participation. Her vision is closely aligned with SDG 16 on Peace, Justice, and Strong Institutions.",
@@ -401,14 +398,14 @@
         "role": "Senior Advisor on Entrepreneurship",
         "name": "Elias Enoc R. Panduru",
         "country": "Honduras",
-        "bio": "Elías Enoc Panduru is a Honduran youth leader, social entrepreneur, and strategist focused on innovation, international cooperation, sustainability, and social impact. His work centers on strategic partnerships, youth development, and the advancement of initiatives that promote inclusive growth and regional collaboration across Central America. \nHe has served in leadership and coordination roles within institutions focused on business development, international cooperation, and civic engagement, and was recognized as part of Forbes 30 Under 30 CentroamÃ©rica for his contributions to innovation and social impact. His work is closely aligned with SDG 17 on Partnerships for the Goals and SDG 8 on Decent Work and Economic Growth.",
+        "bio": "Elías Enoc Panduru is a Honduran youth leader, social entrepreneur, and strategist focused on innovation, international cooperation, sustainability, and social impact. His work centers on strategic partnerships, youth development, and the advancement of initiatives that promote inclusive growth and regional collaboration across Central America. \nHe has served in leadership and coordination roles within institutions focused on business development, international cooperation, and civic engagement, and was recognized as part of Forbes 30 Under 30 Centroamérica for his contributions to innovation and social impact. His work is closely aligned with SDG 17 on Partnerships for the Goals and SDG 8 on Decent Work and Economic Growth.",
         "linkedin": "https://www.linkedin.com/in/elias-enoc-panduru-18b881206/",
         "type": "high council"
       },
       {
         "photo": "dominik_chalapud.jpg",
-        "role": "Chief of Project Development",
-        "name": "Dominik  Chalapud Gavilanes",
+        "role": "Director of Project Development",
+        "name": "Dominik Chalapud Gavilanes",
         "country": "Ecuador",
         "bio": "Dominik Chalapud Gavilanes is an Ecuadorian lawyer with a degree from Pontificia Universidad Católica del Ecuador. She specializes in civic innovation, democratic participation, and the conservation of high-Andean ecosystems, with a deep commitment to regenerative tourism and agriculture \nDominik bridges philanthropy and technology to build solutions that strengthen civic engagement, institutional participation, and environmental stewardship. Her work is closely aligned with SDG 15: Life on Land, reflecting a broader vision of regenerative development rooted in community and territory.",
         "linkedin": "https://www.linkedin.com/in/compliancedominik/",
@@ -446,7 +443,7 @@
         "role": "Advisor on Strategic Finance and Transparency",
         "name": "Michel Quintana",
         "country": "Mexico",
-        "bio": "Michel Quintana is a Mexican financier focused on mergers and acquisitions, investment banking, and sustainable finance. He is currently joining MACA Advisors, an elite boutique firm advising on billion-dollar transactions across Latin America. His work centers on financial strategy, regional development, and cross-border investment within emerging markets. \nHe studies International Finance at TecnolÃ³gico de Monterrey and Columbia University, and is the Founder of the Tec Investment Banking Club Santa Fe. He was awarded the National Reto Santander Prize 2025 and has participated in high-level international forums including the ECOSOC Youth Forum 2026, Financing for Development Forum 2026, STI Forum, and the UNA-USA Global Summit 2026. His work is closely aligned with SDG 8 on Decent Work and Economic Growth, SDG 9 on Industry, Innovation and Infrastructure, SDG 11 on Sustainable Cities and Communities, and SDG 17 on Partnerships for the Goals.",
+        "bio": "Michel Quintana is a Mexican financier focused on mergers and acquisitions, investment banking, and sustainable finance. He is currently joining MACA Advisors, an elite boutique firm advising on billion-dollar transactions across Latin America. His work centers on financial strategy, regional development, and cross-border investment within emerging markets. \nHe studies International Finance at Tecnológico de Monterrey and Columbia University, and is the Founder of the Tec Investment Banking Club Santa Fe. He was awarded the National Reto Santander Prize 2025 and has participated in high-level international forums including the ECOSOC Youth Forum 2026, Financing for Development Forum 2026, STI Forum, and the UNA-USA Global Summit 2026. His work is closely aligned with SDG 8 on Decent Work and Economic Growth, SDG 9 on Industry, Innovation and Infrastructure, SDG 11 on Sustainable Cities and Communities, and SDG 17 on Partnerships for the Goals.",
         "linkedin": "https://www.linkedin.com/in/michelqi/",
         "type": "high council"
       },
@@ -456,7 +453,7 @@
         "name": "Jazbia Shirin",
         "country": "Pakistan",
         "bio": "Dr. Jazbia Shirin is an ecologist and postdoctoral researcher at Peking University Shenzhen Graduate School, China. She holds a Ph.D. in Ecology from Anhui University and her research focuses on environmental science, ecotoxicology, soil microbiology, and sustainable waste management, particularly the impact of microplastics and heavy metals on soil-plant-microbe systems. She has published multiple peer-reviewed articles in leading scientific journals including the Journal of Soils and Sediments, Frontiers in Plant Science, and Ecotoxicology and Environmental Safety. \nShe serves as a Global Peace Ambassador, Vice President of the Global Literary Temple, Board Member of the International Women Parliament, Executive Member of the Global Youth Peace Committee, and Advisory Board Member at iBridge Education. A former news broadcaster and radio jockey, she has also been invited to speak at international forums including the UN ECOSOC Youth Forum 2026 in New York, the International Climate Change Conference, and the International Youth Conference. \nHer work focuses on climate action, peacebuilding, youth empowerment, environmental sustainability, and science communication across the Asia-Pacific region and the Global South. Her work is closely aligned with SDG 13 on Climate Action, SDG 15 on Life on Land, SDG 6 on Clean Water and Sanitation, SDG 4 on Quality Education, and SDG 16 on Peace, Justice, and Strong Institutions.",
-        "linkedin": "www.linkedin.com/in/jazbia-shirin-0429795a/",
+        "linkedin": "https://www.linkedin.com/in/jazbia-shirin-0429795a/",
         "type": "high council"
       },
       {
@@ -573,6 +570,33 @@
         "name": "Carlos Alexander Mucía Ixén",
         "country": "Guatemala",
         "bio": "Carlos Alexander Mucí­a Ixén is an educational facilitator and development advocate from Guatemala, committed to strengthening educational initiatives and promoting community development projects that generate positive social impact. His work focuses on improving access to education, fostering civic participation, and supporting sustainable development within local communities. \nHis work is closely aligned with SDG 4 on Quality Education and SDG 11 on Sustainable Cities and Communities.",
+        "linkedin": "",
+        "type": "fellow"
+      },
+      {
+        "photo": "correales.jpg",
+        "role": "SDG Fellow",
+        "name": "Vivian Camila Correales García",
+        "country": "Colombia/España",
+        "bio": "Vivian is a Colombian political scientist specializing in anti-corruption, human rights, damage reparation, and international cooperation. Her work focuses on strengthening accountability mechanisms and advancing victim-centered approaches to governance, transparency, and justice. \nThrough her work with Transparency International Colombia, she contributed to mapping the impact of corruption on human rights and supported civil society organizations in damage reparation processes in landmark cases such as Ruta del Sol II. She seeks to advance this perspective globally by promoting the recognition of victims of corruption and their right to reparation, in line with the principles of the United Nations Convention against Corruption (UNCAC). Her work is closely aligned with SDG 16 on Peace, Justice, and Strong Institutions.",
+        "linkedin": "http://www.linkedin.com/in/camila-correales",
+        "type": "fellow"
+      },
+      {
+        "photo": "esmeralda.jpg",
+        "role": "SDG Fellow",
+        "name": "Esmeralda Curi Quispe",
+        "country": "Peru",
+        "bio": "Esmeralda is a young Andean activist focused on youth participation, environmental justice, and sustainable development. Born in Huancavelica, Peru, a mining region heavily affected by mercury exploitation, her commitment to environmental advocacy stems from witnessing firsthand the social and environmental consequences of weak governance, public corruption, and inadequate resource management. \nShe has served as a child environmental advisor to the United Nations and continues to promote greater youth engagement in environmental decision-making processes and climate governance. Her work is closely aligned with SDG 13 on Climate Action and SDG 16 on Peace, Justice, and Strong Institutions.",
+        "linkedin": "http://www.linkedin.com/in/esmeralda-curi-quispe-272558351",
+        "type": "fellow"
+      },
+      {
+        "photo": "barbara_perez.jpg",
+        "role": "SDG Fellow",
+        "name": "Bárbara Sofía Pérez Blanco",
+        "country": "Venezuela",
+        "bio": "Bárbara Pérez is a student of International Studies at the Universidad Central de Venezuela with a strong interest in global governance, human security, and international cooperation. Her work and academic interests focus on understanding the role of public policy and multilateral collaboration in addressing contemporary global challenges. \nShe views SDG 3 on Good Health and Well-being and SDG 4 on Quality Education not only as social objectives, but as strategic pillars of global stability. Her perspective emphasizes health and education as essential drivers of human security, resilience, and international cooperation, contributing to stronger and more sustainable societies.",
         "linkedin": "",
         "type": "fellow"
       }
