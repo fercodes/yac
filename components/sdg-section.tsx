@@ -4,7 +4,6 @@ import { useTranslations } from 'next-intl';
 import Button from './button';
 import Image from 'next/image';
 
-
 interface SdgsSectionProps {
   locale: string;
 }
@@ -15,7 +14,6 @@ export default function SdgsSection({ locale }: SdgsSectionProps) {
   return (
     <section className="bg-white py-20 md:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
         {/* Header */}
         <div className="max-w-2xl mb-16">
           <span className="text-xs font-bold text-primary tracking-widest uppercase mb-4 block">
@@ -60,7 +58,28 @@ export default function SdgsSection({ locale }: SdgsSectionProps) {
             {t('ctaLinkText')}
           </Button>
         </div>
+      </div>
 
+      {/* Sponsors */}
+      <div className="mt-20 pt-16 border-t border-gray-100">
+        <p className="text-xs font-bold text-primary tracking-widest uppercase mb-10 text-center">
+          {t('sponsorsEyebrow')}
+        </p>
+        <div className="flex flex-wrap items-center justify-center gap-10">
+          {(t.raw('sponsors') as any[]).map((sponsor: any, index: number) => (
+            <div
+              key={index}
+              className="relative h-10 w-32"
+            >
+              <Image
+                src={'/images/' + sponsor.image}
+                alt={sponsor.name}
+                fill
+                className="object-contain"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

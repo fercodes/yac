@@ -105,6 +105,13 @@
         "title": "Partnerships for the Goals",
         "description": "International cooperation reaches its full potential only when channeled through accountable institutions. Strengthening public integrity is essential to ensuring that global commitments translate into real outcomes."
       }
+    ],
+    "sponsorsEyebrow": "Supported by",
+    "sponsors": [
+      { "name": "Sponsor One", "image": "partner1.png" },
+      { "name": "Sponsor Two", "image": "partner2.png" },
+      { "name": "Sponsor Three", "image": "partner3.png" },
+      { "name": "Sponsor Four", "image": "partner4.png" }
     ]
   },
   "footer": {
