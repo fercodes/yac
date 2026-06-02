@@ -1,17 +1,18 @@
-import Navbar from '@/components/navbar'
-import Footer from '@/components/footer'
-import Button from '@/components/button'
-import { getTranslations } from 'next-intl/server'
+import Navbar from '@/components/navbar';
+import Footer from '@/components/footer';
+import Button from '@/components/button';
+import SdgsSection from '@/components/sdg-section';
+import { getTranslations } from 'next-intl/server';
 
 interface PageProps {
-  params: Promise<{ locale: string }>
+  params: Promise<{ locale: string }>;
 }
 
 export default async function NotNormalPage({ params }: PageProps) {
-  const { locale } = await params
-  const t = await getTranslations('notNormalPage')
+  const { locale } = await params;
+  const t = await getTranslations('notNormalPage');
 
-  const stats = t.raw('stats') as Array<{ icon: string; text: string }>
+  const stats = t.raw('stats') as Array<{ icon: string; text: string }>;
 
   return (
     <main>
@@ -27,9 +28,7 @@ export default async function NotNormalPage({ params }: PageProps) {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               {t('heading')}
             </h1>
-            <p className="text-xl text-gray-300 mb-6">
-              {t('subheading')}
-            </p>
+            <p className="text-xl text-gray-300 mb-6">{t('subheading')}</p>
             <p className="text-gray-300 mb-4">{t('intro1')}</p>
             <p className="text-gray-300 mb-10">{t('intro2')}</p>
             <div className="inline-block border border-white rounded-lg">
@@ -40,6 +39,8 @@ export default async function NotNormalPage({ params }: PageProps) {
           </div>
         </div>
       </section>
+
+      <SdgsSection locale={locale} />
 
       {/* Why this matters */}
       <section className="bg-white py-20 md:py-32">
@@ -77,5 +78,5 @@ export default async function NotNormalPage({ params }: PageProps) {
 
       <Footer locale={locale} />
     </main>
-  )
+  );
 }

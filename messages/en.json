@@ -79,9 +79,6 @@
       { "image": "photo19.jpg", "alt": "" }
     ],
     "heading": "Accelerating the achievement of the Sustainable Development Goals (SDGs)",
-    "ctaLinkText": "Join the organization",
-    "ctaLinkUrl": "/en/join",
-    "cta": "Public corruption is not inevitable. Join the generation committed to proving it.",
     "items": [
       {
         "icon": "org6.png",
@@ -113,7 +110,12 @@
         "title": "Partnerships for the Goals",
         "description": "International cooperation reaches its full potential only when channeled through accountable institutions. Strengthening public integrity is essential to ensuring that global commitments translate into real outcomes."
       }
-    ],
+    ]
+  },
+  "callToAction": {
+    "ctaLinkText": "Join the organization",
+    "ctaLinkUrl": "/en/join",
+    "cta": "Public corruption is not inevitable. Join the generation committed to proving it.",
     "sponsorsEyebrow": "Supported by",
     "sponsors": [
       { "name": "Sponsor One", "image": "partner1.png" },
@@ -151,7 +153,7 @@
         "title": "Youth Fellows for the SDGs",
         "subtitle": "500+ members. 15 countries. One mission.",
         "image": "photo16.jpg",
-        "buttonText": "Applications closed",
+        "buttonText": "Meet the cohort",
         "buttonUrl": "/en/fellows",
         "body": [
           "The Youth Fellows for the SDGs program recruits young leaders from across Latin America, from different backgrounds, ideologies, and disciplines, to research and document how public corruption affects progress on the Sustainable Development Goals in their communities.",
@@ -243,8 +245,8 @@
     "subheading": "The Youth Corruption Perception Index is the first public corruption perception index built by young people, for the world.",
     "intro1": "International organizations and governments have long recognized public corruption as a barrier to development. What has been missing is the systematic, large-scale perspective of the generation most affected by its consequences: young people.",
     "intro2": "The YCPI exists to fill that gap.",
-    "ctaText": "Be notified at launch",
-    "ctaUrl": "/en/notify",
+    "ctaText": "Donate",
+    "ctaUrl": "/en/#form",
     "statsHeading": "Why this matters",
     "stats": [
       {

@@ -59,7 +59,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-3 gap-8 text-center">
             <div>
-              <p className="text-4xl font-bold">
+              <p className="text-4xl font-bold pb-2">
                 <span className="border-b-3 border-primary-foreground">
                   500+
                 </span>
@@ -67,7 +67,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
               <p className="text-sm mt-1 opacity-80">Leaders in this mission</p>
             </div>
             <div>
-              <p className="text-4xl font-bold">
+              <p className="text-4xl font-bold pb-2">
                 <span className="border-b-3 border-primary-foreground">
                   15+
                 </span>
@@ -77,7 +77,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
               </p>
             </div>
             <div>
-              <p className="text-4xl font-bold">
+              <p className="text-4xl font-bold pb-2">
                 <span className="border-b-3 border-primary-foreground">15</span>
               </p>
               <p className="text-sm mt-1 opacity-80">Countries and growing</p>

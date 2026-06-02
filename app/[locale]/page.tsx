@@ -5,6 +5,7 @@ import BoardPreview from '@/components/board-preview';
 import ProjectsPreview from '@/components/projects-preview';
 import FrameworkSection from '@/components/framework-section';
 import SdgsSection from '@/components/sdg-section';
+import CallToActionSection from '@/components/call-to-action';
 import Footer from '@/components/footer';
 
 interface PageProps {
@@ -23,6 +24,7 @@ export default async function HomePage({ params }: PageProps) {
       <ProjectsPreview locale={locale} />
       <FrameworkSection locale={locale} />
       <SdgsSection locale={locale} />
+      <CallToActionSection locale={locale} />
       <Footer locale={locale} />
     </main>
   );
