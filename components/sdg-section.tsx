@@ -15,13 +15,13 @@ export default function SdgsSection({ locale }: SdgsSectionProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-16">
-          <span className="text-2xl font-bold text-primary tracking-widest uppercase mb-4 block">
+          <span className="text-3xl md:text-4xl font-bold text-primary">
             {t('eyebrow')}
           </span>
         </div>
 
         {/* Impact split: left text / photos / right text */}
-        <div className="flex flex-col md:flex-row items-center gap-10 mb-20">
+        <div className="flex flex-col md:flex-row items-start gap-10 mb-20">
           {/* Left text */}
           <div className="flex-1">
             <h3 className="text-xl font-bold text-primary mb-4">
@@ -38,7 +38,7 @@ export default function SdgsSection({ locale }: SdgsSectionProps) {
               (photo: any, index: number) => (
                 <div
                   key={index}
-                  className="relative w-28 h-28 md:w-48 md:h-48 rounded-xl overflow-hidden"
+                  className="relative w-28 h-28 md:w-40 md:h-40 rounded-xl overflow-hidden"
                 >
                   <Image
                     src={'/images/' + photo.image}
@@ -55,6 +55,9 @@ export default function SdgsSection({ locale }: SdgsSectionProps) {
           <div className="flex-1">
             <p className="text-gray-600 leading-relaxed text-sm md:text-base">
               {t('impactRight')}
+            </p>
+            <p className="text-gray-600 leading-relaxed text-sm md:text-base font-bold mt-4">
+              {t('impactRightBold')}
             </p>
           </div>
         </div>
