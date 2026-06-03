@@ -1,18 +1,18 @@
-'use client'
+'use client';
 
-import Link from 'next/link'
+import Link from 'next/link';
 
 interface MobileMenuProps {
   links: Array<{
-    label: string
-    href: string
-  }>
-  onClose: () => void
+    label: string;
+    href: string;
+  }>;
+  onClose: () => void;
 }
 
 export default function MobileMenu({ links, onClose }: MobileMenuProps) {
   return (
-    <div className="md:hidden bg-secondary text-secondary-foreground border-t border-accent animate-in fade-in slide-in-from-top-2 duration-200">
+    <div className="md:hidden bg-primary text-primary-foreground border-t border-accent animate-in fade-in slide-in-from-top-2 duration-200">
       <div className="px-2 pt-2 pb-3 space-y-1">
         {links.map((link) => (
           <Link
@@ -26,5 +26,5 @@ export default function MobileMenu({ links, onClose }: MobileMenuProps) {
         ))}
       </div>
     </div>
-  )
+  );
 }

@@ -2,6 +2,7 @@ import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 import Button from '@/components/button';
 import MemberCard from '@/components/ui/member-card';
+import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
 interface PageProps {
@@ -43,13 +44,27 @@ export default async function BoardPage({ params }: PageProps) {
       {/* Hero */}
       <section className="bg-primary text-primary-foreground py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <span className="text-xs font-bold tracking-widest uppercase opacity-60 mb-4 block">
-            {t('eyebrow')}
-          </span>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            {t('heading')}
-          </h1>
-          <p className="text-xl text-gray-300 max-w-2xl">{t('subheading')}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="text-xs font-bold tracking-widest uppercase opacity-60 mb-4 block">
+                {t('eyebrow')}
+              </span>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                {t('heading')}
+              </h1>
+              <p className="text-xl text-gray-300 max-w-2xl">
+                {t('subheading')}
+              </p>
+            </div>
+            <div className="relative w-full max-w-md ml-auto aspect-[4/3] overflow-hidden rounded-xl hidden md:block">
+              <Image
+                src="/images/photo14.jpg"
+                alt={t('heading')}
+                fill
+                className="object-cover opacity-80"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
