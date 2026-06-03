@@ -37,28 +37,30 @@
       {
         "title": "Youth Fellows for the SDGs",
         "description": "Young leaders across 15 countries documenting how public corruption undermines SDG progress and shapes young people's lives, producing the evidence institutions need to act, and bridging local realities with the tables where decisions are made.",
-        "image": "photo16.jpg"
+        "image": "photo20.jpg"
       },
       {
         "title": "Youth Corruption Perception Index",
         "description": "The first youth-led public corruption perception index in Latin America, turning the lived experience of young people across 15 countries into policy-grade evidence.",
-        "image": "photo4.jpg"
+        "image": "photo21.jpg"
       },
       {
         "title": "The Youth Report on Corruption and Development",
         "description": "A regional policy paper analyzing how public corruption affects young people, weakens institutions, and slows sustainable development across Latin America, undermining progress towards the SDGs and the broader 2030 Agenda.",
-        "image": "photo5.jpg"
+        "image": "photo22.jpg"
       },
       {
         "title": "Youth Integrity Academy",
         "description": "Building the next generation of leaders equipped to demand and practice integrity in public life, beyond ethics, toward action.",
-        "image": "photo14.jpg"
+        "image": "photo23.jpg"
       }
     ]
   },
   "framework": {
     "eyebrow": "Our framework for action",
     "heading": "The structural barrier behind every challenge",
+    "image": "photo24.jpg",
+    "imageAlt": "",
     "paragraphs": [
       "The evidence is consistent: countries with higher levels of public corruption consistently show slower development, weaker institutions, and fewer opportunities for their citizens, particularly for young people.",
       "Governments, international organizations, and civil society are making significant investments to address the defining challenges of our time: climate change, inequality, lack of opportunity, and access to quality education and healthcare.",
