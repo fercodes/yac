@@ -41,7 +41,7 @@ export default async function NotNormalPage({ params }: PageProps) {
             </div>
             <div className="relative w-full max-w-md ml-auto aspect-[4/3] overflow-hidden rounded-xl hidden md:block">
               <Image
-                src="/images/photo14.jpg"
+                src="/images/photo33.jpg"
                 alt={t('heading')}
                 fill
                 className="object-cover opacity-80"
@@ -80,9 +80,16 @@ export default async function NotNormalPage({ params }: PageProps) {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               {t('commitmentHeading')}
             </h2>
-            <p className="text-gray-300 text-lg leading-relaxed">
-              {t('commitmentBody')}
-            </p>
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
+              <p className="text-gray-300 text-lg leading-relaxed">
+                {t('commitmentBody')}
+              </p>
+              <div className="inline-block border border-white rounded-lg flex-shrink-0">
+                <Button href={t('joinUrl')} variant="primary">
+                  {t('joinText')}
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -37,7 +37,7 @@ export default async function AboutPage({ params }: PageProps) {
             </div>
             <div className="relative w-full max-w-md ml-auto aspect-[4/3] overflow-hidden rounded-xl hidden md:block">
               <Image
-                src="/images/photo14.jpg"
+                src="/images/photo30.jpg"
                 alt={t('heading')}
                 fill
                 className="object-cover opacity-80"
@@ -62,7 +62,7 @@ export default async function AboutPage({ params }: PageProps) {
             </div>
             <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md">
               <Image
-                src="/images/photo16.jpg"
+                src="/images/photo31.jpg"
                 alt="About us"
                 width="500"
                 height="600"

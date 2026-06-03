@@ -41,7 +41,7 @@ export default async function ProjectsPage({ params }: PageProps) {
             </div>
             <div className="relative w-full max-w-md ml-auto aspect-[4/3] overflow-hidden rounded-xl hidden md:block">
               <Image
-                src="/images/photo9.jpg"
+                src="/images/photo32.jpg"
                 alt={t('heading')}
                 fill
                 className="object-cover opacity-80"

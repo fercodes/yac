@@ -115,10 +115,7 @@
       }
     ]
   },
-  "callToAction": {
-    "ctaLinkText": "Join the organization",
-    "ctaLinkUrl": "/en/join",
-    "cta": "Public corruption is not inevitable. Join the generation committed to proving it.",
+  "sponsors": {
     "sponsorsEyebrow": "Supported by",
     "sponsors": [
       { "name": "Sponsor One", "image": "partner1.png" },
@@ -126,6 +123,20 @@
       { "name": "Sponsor Three", "image": "partner3.png" },
       { "name": "Sponsor Four", "image": "partner4.png" }
     ]
+  },
+  "photoCarousel": {
+    "photos": [
+      { "image": "photo25.jpg", "alt": "" },
+      { "image": "photo26.jpg", "alt": "" },
+      { "image": "photo27.jpg", "alt": "" },
+      { "image": "photo28.jpg", "alt": "" },
+      { "image": "photo29.jpg", "alt": "" }
+    ]
+  },
+  "callToAction": {
+    "ctaLinkText": "Join the organization",
+    "ctaLinkUrl": "/en/join",
+    "cta": "Public corruption is not inevitable. Join the generation committed to proving it."
   },
   "footer": {
     "contact": "Press and inquiries",
@@ -270,7 +281,9 @@
       }
     ],
     "commitmentHeading": "#NotNormal is a commitment.",
-    "commitmentBody": "Public corruption has been treated as an inevitable cost of governance for too long. This generation, from every background, every ideology, every country, is united by one conviction: this is not normal, and it does not have to be. We are changing it. Not with noise. With evidence."
+    "commitmentBody": "Public corruption has been treated as an inevitable cost of governance for too long. This generation, from every background, every ideology, every country, is united by one conviction: this is not normal, and it does not have to be. We are changing it. Not with noise. With evidence.",
+    "joinText": "Join the organization",
+    "joinUrl": "/en/#form"
   },
   "privacy": {
     "heading": "Privacy Policy",
