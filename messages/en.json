@@ -37,22 +37,22 @@
       {
         "title": "Youth Fellows for the SDGs",
         "description": "Young leaders across 15 countries documenting how public corruption undermines SDG progress and shapes young people's lives, producing the evidence institutions need to act, and bridging local realities with the tables where decisions are made.",
-        "image": "photo20.jpg"
+        "image": "photo16.jpg"
       },
       {
         "title": "Youth Corruption Perception Index",
         "description": "The first youth-led public corruption perception index in Latin America, turning the lived experience of young people across 15 countries into policy-grade evidence.",
-        "image": "photo21.jpg"
+        "image": "photo4.jpg"
       },
       {
         "title": "The Youth Report on Corruption and Development",
         "description": "A regional policy paper analyzing how public corruption affects young people, weakens institutions, and slows sustainable development across Latin America, undermining progress towards the SDGs and the broader 2030 Agenda.",
-        "image": "photo22.jpg"
+        "image": "photo5.jpg"
       },
       {
         "title": "Youth Integrity Academy",
         "description": "Building the next generation of leaders equipped to demand and practice integrity in public life, beyond ethics, toward action.",
-        "image": "photo23.jpg"
+        "image": "photo14.jpg"
       }
     ]
   },
@@ -155,7 +155,7 @@
       {
         "title": "Youth Fellows for the SDGs",
         "subtitle": "500+ members. 15 countries. One mission.",
-        "image": "photo16.jpg",
+        "image": "photo20.jpg",
         "buttonText": "Meet the cohort",
         "buttonUrl": "/en/fellows",
         "body": [
@@ -167,7 +167,7 @@
       {
         "title": "Youth Corruption Perception Index",
         "subtitle": "The first public corruption perception index built by youth, for the world.",
-        "image": "photo4.jpg",
+        "image": "photo21.jpg",
         "buttonText": "Be notified at launch",
         "buttonUrl": "/en/notify",
         "body": [
@@ -181,7 +181,7 @@
       {
         "title": "The Youth Report on Corruption and Development",
         "subtitle": "Understanding how public corruption affects young people, institutions, and sustainable development across Latin America.",
-        "image": "photo5.jpg",
+        "image": "photo22.jpg",
         "buttonText": "Learn more",
         "buttonUrl": "/en/report",
         "body": [
@@ -195,7 +195,7 @@
       {
         "title": "Youth Integrity Academy",
         "subtitle": "Leadership without integrity is just power. We're building something different.",
-        "image": "photo14.jpg",
+        "image": "photo23.jpg",
         "buttonText": "Be notified at launch of 2026 Winter Academy",
         "buttonUrl": "/en/academy",
         "body": [
