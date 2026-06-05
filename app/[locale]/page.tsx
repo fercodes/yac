@@ -8,6 +8,7 @@ import SdgsSection from '@/components/sdg-section';
 import SponsorsSection from '@/components/sponsors-section';
 import PhotoCarousel from '@/components/photo-carousel';
 import CallToActionSection from '@/components/call-to-action';
+import FormSection from '@/components/form-section';
 import Footer from '@/components/footer';
 
 interface PageProps {
@@ -29,6 +30,7 @@ export default async function HomePage({ params }: PageProps) {
       <SponsorsSection locale={locale} />
       <PhotoCarousel locale={locale} />
       <CallToActionSection locale={locale} />
+      <FormSection />
       <Footer locale={locale} />
     </main>
   );
