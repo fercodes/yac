@@ -135,7 +135,7 @@
   },
   "callToAction": {
     "ctaLinkText": "Join the organization",
-    "ctaLinkUrl": "/en/join",
+    "ctaLinkUrl": "/en/#form",
     "cta": "Public corruption is not inevitable. Join the generation committed to proving it."
   },
   "footer": {
@@ -180,7 +180,7 @@
         "subtitle": "The first public corruption perception index built by youth, for the world.",
         "image": "photo21.jpg",
         "buttonText": "Be notified at launch",
-        "buttonUrl": "/en/notify",
+        "buttonUrl": "/en/#form",
         "body": [
           "Governments measure public corruption. Academic institutions measure public corruption. But the perspective of young people, the generation most directly affected by its long-term consequences, has not been systematically captured at scale.",
           "The Youth Corruption Perception Index addresses that gap.",
@@ -194,7 +194,7 @@
         "subtitle": "Understanding how public corruption affects young people, institutions, and sustainable development across Latin America.",
         "image": "photo22.jpg",
         "buttonText": "Learn more",
-        "buttonUrl": "/en/report",
+        "buttonUrl": "/en/#form",
         "body": [
           "Public corruption is often discussed as a political or legal issue, but for millions of young people it is experienced as a direct barrier to opportunity, development, and trust in institutions. It limits access to education, employment, public services, and meaningful participation in decision-making processes.",
           "The Youth Report on Corruption and Development is a regional policy paper developed with the support of young researchers, fellows, and contributors across Latin America. Through research, field perspectives, and youth-led analysis, the report examines how corruption weakens institutions, slows sustainable development, and disproportionately affects younger generations.",
@@ -208,7 +208,7 @@
         "subtitle": "Leadership without integrity is just power. We're building something different.",
         "image": "photo23.jpg",
         "buttonText": "Be notified at launch of 2026 Winter Academy",
-        "buttonUrl": "/en/academy",
+        "buttonUrl": "/en/#form",
         "body": [
           "The Youth Integrity Academy is a regional training program that equips young leaders with the knowledge, analytical tools, and professional networks to advocate for and practice integrity in public life, in their institutions, their communities, and their future roles in government and civil society.",
           "Participants in the Youth Integrity Academy are not just trained, they are prepared. Prepared to recognize the mechanisms of public corruption, to build systems that resist it, and to lead institutions that reflect the standard their communities deserve.",

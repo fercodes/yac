@@ -4,7 +4,7 @@ import Script from 'next/script';
 
 export default function FormSection() {
   return (
-    <section className="bg-white py-20">
+    <section id="form" className="bg-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <iframe
           data-tally-src="https://tally.so/embed/Xxzy2d?transparentBackground=1&dynamicHeight=1"
