@@ -83,7 +83,7 @@ export default async function NotNormalPage({ params }: PageProps) {
             <p className="text-gray-300 text-lg leading-relaxed max-w-2xl">
               {t('commitmentBody')}
             </p>
-            <div className="border-2 border-white rounded-lg flex-shrink-0">
+            <div className="inline-block border-2 border-white rounded-lg flex-shrink-0 self-start">
               <Button href={t('joinUrl')} variant="primary">
                 {t('joinText')}
               </Button>
