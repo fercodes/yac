@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import Button from './button';
 
 interface FooterProps {
   locale: string;
@@ -20,8 +21,9 @@ export default function Footer({ locale }: FooterProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">
-              YAC FOUNDATION | YOUTH AGAINST CORRUPTION
+            <h3 className="text-2xl font-bold mb-4">YAC FOUNDATION</h3>
+            <h3 className="text-base font-bold mb-4">
+              YOUTH AGAINST CORRUPTION
             </h3>
             <p className="text-sm text-gray-300 mb-4 italic">{t('tagline')}</p>
             <div className="space-y-2 text-sm text-gray-300">
@@ -79,7 +81,7 @@ export default function Footer({ locale }: FooterProps) {
           </div>
 
           <div>
-            <h4 className="font-bold text-lg mb-4">{t('followUs')}</h4>
+            <h4 className="font-bold text-2xl mb-4">{t('followUs')}</h4>
             <div className="space-y-2 text-sm text-gray-300">
               <a
                 href={linkedinUrl}
@@ -115,6 +117,14 @@ export default function Footer({ locale }: FooterProps) {
               >
                 {t('terms')}
               </Link>
+            </div>
+          </div>
+
+          <div className="flex items-start">
+            <div className="inline-block border-2 border-white rounded-lg">
+              <Button href={t('donateUrl')} variant="primary">
+                {t('donateButton')}
+              </Button>
             </div>
           </div>
         </div>

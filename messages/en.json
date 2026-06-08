@@ -158,7 +158,9 @@
     "legal": "Legal",
     "privacy": "Privacy policy",
     "terms": "Terms of use",
-    "copyright": "© 2026 YAC FOUNDATION. All rights reserved."
+    "copyright": "© 2026 YAC FOUNDATION. All rights reserved.",
+    "donateButton": "Donate",
+    "donateUrl": "https://your-donation-link.com"
   },
   "projectsPage": {
     "eyebrow": "Our work",
@@ -188,7 +190,7 @@
           "The Youth Corruption Perception Index addresses that gap.",
           "Through a three-step process, a structured survey capturing how public corruption has affected young people's lives, a public petition demanding institutional accountability, and a shareable data visualization, the YCPI turns the lived experience of young people across 15 countries into policy-grade evidence.",
           "The findings will be presented at the United Nations and shared with governments and civil society organizations across Latin America and beyond.",
-          "Launching May 2025."
+          "Launching soon."
         ]
       },
       {
@@ -261,7 +263,7 @@
     "subheading": "The Youth Corruption Perception Index is the first public corruption perception index built by young people, for the world.",
     "intro1": "International organizations and governments have long recognized public corruption as a barrier to development. What has been missing is the systematic, large-scale perspective of the generation most affected by its consequences: young people.",
     "intro2": "The YCPI exists to fill that gap.",
-    "ctaText": "Donate",
+    "ctaText": "Be notified at launch",
     "ctaUrl": "/en/#form",
     "statsHeading": "Why this matters",
     "stats": [
