@@ -139,8 +139,10 @@
     "cta": "Public corruption is not inevitable. Join the generation committed to proving it."
   },
   "footer": {
-    "contact": "Press and inquiries",
-    "email": "press@theyacfoundation.org",
+    "contact1": "Press",
+    "email1": "press@theyacfoundation.org",
+    "contact2": "Partnerships",
+    "email2": "partnerships@theyacfoundation.org",
     "linkedinUrl": "https://linkedin.com/company/the-yac-foundation/about/",
     "instagramUrl": "https://instagram.com/theyacfoundation/",
     "quickLinks": "Quick links",
@@ -168,7 +170,7 @@
         "subtitle": "500+ members. 15 countries. One mission.",
         "image": "photo20.jpg",
         "buttonText": "Meet the cohort",
-        "buttonUrl": "/en/fellows",
+        "buttonUrl": "/en/board",
         "body": [
           "The Youth Fellows for the SDGs program recruits young leaders from across Latin America, from different backgrounds, ideologies, and disciplines, to research and document how public corruption affects progress on the Sustainable Development Goals in their communities.",
           "Each fellow is assigned a specific SDG and country, producing research, data, and policy insights that feed directly into the Youth Corruption Perception Index and YAC Foundation's engagement with international organizations and national governments.",
@@ -255,7 +257,7 @@
   },
   "notNormalPage": {
     "eyebrow": "#NotNormal",
-    "heading": "Your experience matters. Your data can change policy, accelerate development and impact realities.",
+    "heading": "Your experience matters. Your opinion can change policy, accelerate development and impact realities.",
     "subheading": "The Youth Corruption Perception Index is the first public corruption perception index built by young people, for the world.",
     "intro1": "International organizations and governments have long recognized public corruption as a barrier to development. What has been missing is the systematic, large-scale perspective of the generation most affected by its consequences: young people.",
     "intro2": "The YCPI exists to fill that gap.",
@@ -491,7 +493,7 @@
       },
       {
         "photo": "fernanda_alvarez_aguilar.jpg",
-        "role": "Advisor on Policy and Research",
+        "role": "SDG Fellow and Advisor on Research and Human Rights",
         "name": "Fernanda Camila Álvarez Aguilar",
         "country": "Peru",
         "bio": "Fernanda Camila Álvarez Aguilar is a law student, youth leader, and Founder of YIA, an initiative focused on youth empowerment, leadership, and civic engagement. She also serves as an Andean Parliamentarian, contributing to regional dialogue, democratic participation, and youth representation within multilateral and political spaces across Latin America. \nAlongside her academic and institutional work, she is a selected taekwondo athlete, reflecting a strong commitment to discipline, resilience, and high performance. Her work is closely aligned with SDG 16 on Peace, Justice, and Strong Institutions, promoting greater youth participation in governance and public leadership.",

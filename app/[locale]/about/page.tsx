@@ -60,7 +60,7 @@ export default async function AboutPage({ params }: PageProps) {
                 </p>
               ))}
             </div>
-            <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md">
+            <div className="relative w-full aspect-[3/4] overflow-hidden rounded-md">
               <Image
                 src="/images/photo31.jpg"
                 alt="About us"

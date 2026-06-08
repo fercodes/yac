@@ -10,7 +10,8 @@ interface FooterProps {
 export default function Footer({ locale }: FooterProps) {
   const t = useTranslations('footer');
 
-  const email = t('email');
+  const email1 = t('email1');
+  const email2 = t('email2');
   const linkedinUrl = t('linkedinUrl');
   const instagramUrl = t('instagramUrl');
 
@@ -24,12 +25,19 @@ export default function Footer({ locale }: FooterProps) {
             </h3>
             <p className="text-sm text-gray-300 mb-4 italic">{t('tagline')}</p>
             <div className="space-y-2 text-sm text-gray-300">
-              <p className="font-semibold">{t('contact')}:</p>
+              <p className="font-semibold">{t('contact1')}:</p>
               <a
-                href={'mailto:' + email}
+                href={'mailto:' + email1}
                 className="block hover:opacity-80 transition-opacity"
               >
-                {email}
+                {email1}
+              </a>
+              <p className="font-semibold">{t('contact2')}:</p>
+              <a
+                href={'mailto:' + email2}
+                className="block hover:opacity-80 transition-opacity"
+              >
+                {email2}
               </a>
             </div>
           </div>

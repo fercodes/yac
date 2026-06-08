@@ -20,7 +20,7 @@ export default async function NotNormalPage({ params }: PageProps) {
       <Navbar locale={locale} />
 
       {/* Hero */}
-      <section className="bg-primary text-primary-foreground py-20 md:py-32">
+      <section className="bg-primary text-primary-foreground py-8 md:py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="max-w-3xl">
@@ -76,19 +76,17 @@ export default async function NotNormalPage({ params }: PageProps) {
       {/* Commitment section */}
       <section className="bg-primary/90 text-primary-foreground py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              {t('commitmentHeading')}
-            </h2>
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
-              <p className="text-gray-300 text-lg leading-relaxed">
-                {t('commitmentBody')}
-              </p>
-              <div className="inline-block border border-white rounded-lg flex-shrink-0">
-                <Button href={t('joinUrl')} variant="primary">
-                  {t('joinText')}
-                </Button>
-              </div>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            {t('commitmentHeading')}
+          </h2>
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-8">
+            <p className="text-gray-300 text-lg leading-relaxed max-w-2xl">
+              {t('commitmentBody')}
+            </p>
+            <div className="border-2 border-white rounded-lg flex-shrink-0">
+              <Button href={t('joinUrl')} variant="primary">
+                {t('joinText')}
+              </Button>
             </div>
           </div>
         </div>

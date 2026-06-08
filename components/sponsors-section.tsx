@@ -27,6 +27,7 @@ export default function SponsorsSection({ locale }: SponsorsSectionProps) {
               />
             </div>
           ))}
+          <span className="text-6xl font-bold text-primary">+</span>
         </div>
       </div>
     </section>

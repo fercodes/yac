@@ -35,7 +35,7 @@ export default function FrameworkSection({ locale }: FrameworkSectionProps) {
             </div>
           </div>
 
-          <div className="relative w-full aspect-[4/3] overflow-hidden rounded-xl hidden md:block">
+          <div className="relative w-full aspect-[2/3] overflow-hidden rounded-xl hidden md:block">
             <Image
               src={'/images/' + t('image')}
               alt={t('imageAlt')}

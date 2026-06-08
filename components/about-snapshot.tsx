@@ -12,7 +12,7 @@ export default function AboutSnapshot({ locale }: AboutSnapshotProps) {
   const t = useTranslations('about');
 
   return (
-    <section className="bg-gray-light py-24 md:py-40">
+    <section className="bg-gray-light py-16 md:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-6">
           <span className="text-xs font-bold text-primary tracking-widest uppercase">

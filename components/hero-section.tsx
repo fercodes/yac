@@ -55,7 +55,7 @@ export default function HeroSection({ locale }: HeroSectionProps) {
       </section>
 
       {/* Stats */}
-      <div className="relative w-full bg-primary text-primary-foreground py-12 my-6">
+      <div className="relative w-full bg-primary text-primary-foreground py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-3 gap-8 text-center">
             <div>
